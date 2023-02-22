@@ -7,7 +7,7 @@ subroutine bcUV(um,vm)
     real(8), DIMENSION(1:imax  ,1:jmax+1) :: vm
        
 !------ contorno inferior -----------
-    !$omp parallel do private (i)
+    !$omp parallel do simd private (i)
     DO i=1,imax
         !vm(i,2) = 2.d0*vm(i,4) - vm(i,3)  !!!DARCY
         !vm(i,1) = 2.d0*vm(i,3) - vm(i,2)   !!!DARCY
@@ -17,13 +17,13 @@ subroutine bcUV(um,vm)
      ENDDO
     !$omp end parallel do
 
-    !$omp parallel do private (i)
+    !$omp parallel do simd private (i)
     DO i=1,imax 
         vm(i,1) = v_i
     ENDDO
     !$omp end parallel do
 
-    !$omp parallel do private (i)
+    !$omp parallel do simd private (i)
     DO i=2,imax
        ! um(i,1) = um(i,2)!!!DARCY
         um(i,1) = 0.d0    !!!DARCY
@@ -32,18 +32,18 @@ subroutine bcUV(um,vm)
 
     
 !------ contorno superior ----------
-    !$omp parallel do private (i)
+    !$omp parallel do simd private (i)
     DO i=2,imax
         vm(i,jmax  ) = 2.d0*vm(i,jmax-2) - vm(i,jmax-1)
     ENDDO
     !$omp end parallel do
-    !$omp parallel do private (i)
+    !$omp parallel do simd private (i)
     DO i=2,imax
         vm(i,jmax+1) = 2.d0*vm(i,jmax-1) - vm(i,jmax)
     ENDDO
     !$omp end parallel do
 
-    !$omp parallel do private(i)
+    !$omp parallel do simd private(i)
     DO i=2,imax
         um(i,jmax) = um(i,jmax-1) 
     ENDDO
@@ -51,14 +51,14 @@ subroutine bcUV(um,vm)
    
 
  !------ contorno esquerdo --------
-    !$omp parallel do private (j)
+    !$omp parallel do simd private (j)
     DO j=1,jmax
         !um(2,j) = 0.d0 !symmetry
         !um(1,j) = 0.d0 !symmetry
         um(2,j) = 2.d0*um(4  ,j) - um(3,j)  !Darcy
     ENDDO
     !$omp end parallel do
-    !$omp parallel do private (j)
+    !$omp parallel do simd private (j)
     DO j=1,jmax
         um(1,j) = 2.d0*um(3  ,j) - um(2,j)	!Darcy
       !    um(2,j) = 0.d0
@@ -66,26 +66,26 @@ subroutine bcUV(um,vm)
     ENDDO
     !$omp end parallel do
 
-    !$omp parallel do
+    !$omp parallel do simd private(j)
     DO j=1,jmax+1
         vm(1,j) = vm(2,j) !darcy
     ENDDO
     !$omp end parallel do
 
 !------ contorno direito --------
-    !$omp parallel do private(j)
+    !$omp parallel do simd private(j)
     DO j=1,jmax
         um(imax  ,j) = 2.d0*um(imax-2  ,j) - um(imax-1,j)
     ENDDO
     !$omp end parallel do
     
-    !$omp parallel do private(j)
+    !$omp parallel do simd private(j)
     DO j=1,jmax
         um(imax+1,j) = 2.d0*um(imax-1  ,j) - um(imax,j)
     ENDDO
     !$omp end parallel do
 
-    !$omp parallel do private(j)
+    !$omp parallel do simd private(j)
     DO j=2,jmax
         vm(imax,j) =  vm(imax-1,j) !Darcy
     ENDDO            
