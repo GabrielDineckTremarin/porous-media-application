@@ -1,0 +1,1295 @@
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.43user 0.02system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 59728maxresident)k
+0inputs+648outputs (0major+6112minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 60184maxresident)k
+0inputs+640outputs (0major+6047minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59776maxresident)k
+0inputs+640outputs (0major+6029minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60120maxresident)k
+0inputs+640outputs (0major+6002minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59284maxresident)k
+0inputs+640outputs (0major+5982minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17125.69user 0.07system 4:45:27elapsed 99%CPU (0avgtext+0avgdata 60116maxresident)k
+616inputs+17944outputs (2major+7402minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.42user 0.03system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 60388maxresident)k
+0inputs+640outputs (0major+6118minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.Command terminated by signal 6
+0.34user 0.03system 0:00.57elapsed 66%CPU (0avgtext+0avgdata 59420maxresident)k
+0inputs+640outputs (0major+6040minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.39user 0.03system 0:00.62elapsed 68%CPU (0avgtext+0avgdata 60040maxresident)k
+0inputs+640outputs (0major+6004minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.42user 0.02system 0:00.61elapsed 74%CPU (0avgtext+0avgdata 59872maxresident)k
+0inputs+640outputs (0major+6000minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59564maxresident)k
+0inputs+640outputs (0major+5981minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17181.06user 0.15system 4:46:23elapsed 99%CPU (0avgtext+0avgdata 60196maxresident)k
+0inputs+17928outputs (0major+6379minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.05system 0:00.53elapsed 77%CPU (0avgtext+0avgdata 59776maxresident)k
+0inputs+640outputs (0major+6109minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59876maxresident)k
+0inputs+640outputs (0major+6041minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59568maxresident)k
+0inputs+640outputs (0major+6008minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.54elapsed 69%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+6000minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.40user 0.03system 0:00.64elapsed 68%CPU (0avgtext+0avgdata 60092maxresident)k
+0inputs+640outputs (0major+5995minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17129.43user 0.13system 4:45:31elapsed 99%CPU (0avgtext+0avgdata 59896maxresident)k
+0inputs+17928outputs (0major+6371minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.03system 0:00.53elapsed 75%CPU (0avgtext+0avgdata 60072maxresident)k
+0inputs+648outputs (0major+6092minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59512maxresident)k
+0inputs+640outputs (0major+6033minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.51elapsed 72%CPU (0avgtext+0avgdata 60120maxresident)k
+0inputs+640outputs (0major+6018minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59660maxresident)k
+0inputs+640outputs (0major+5991minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60184maxresident)k
+0inputs+640outputs (0major+5989minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17160.67user 0.05system 4:46:02elapsed 99%CPU (0avgtext+0avgdata 60072maxresident)k
+8inputs+17928outputs (0major+6375minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.Command terminated by signal 6
+0.37user 0.03system 0:00.53elapsed 76%CPU (0avgtext+0avgdata 59868maxresident)k
+8inputs+648outputs (0major+6129minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.50elapsed 75%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+6032minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.54elapsed 71%CPU (0avgtext+0avgdata 59864maxresident)k
+0inputs+640outputs (0major+6013minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 60152maxresident)k
+0inputs+640outputs (0major+6009minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59944maxresident)k
+0inputs+640outputs (0major+5984minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17086.11user 0.04system 4:44:48elapsed 99%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+17928outputs (0major+7399minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.42user 0.02system 0:00.57elapsed 77%CPU (0avgtext+0avgdata 59904maxresident)k
+0inputs+640outputs (0major+6110minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+648outputs (0major+6055minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6034minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.51elapsed 72%CPU (0avgtext+0avgdata 60128maxresident)k
+0inputs+640outputs (0major+5996minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59344maxresident)k
+0inputs+640outputs (0major+5978minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17107.97user 0.06system 4:45:09elapsed 99%CPU (0avgtext+0avgdata 59820maxresident)k
+0inputs+17928outputs (0major+7406minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.39user 0.06system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 59360maxresident)k
+0inputs+640outputs (0major+6099minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59820maxresident)k
+0inputs+648outputs (0major+6054minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+Command terminated by signal 6
+0.34user 0.02system 0:00.62elapsed 59%CPU (0avgtext+0avgdata 59448maxresident)k
+256inputs+640outputs (0major+6012minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59984maxresident)k
+0inputs+640outputs (0major+5990minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 60104maxresident)k
+0inputs+640outputs (0major+5988minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17167.81user 0.09system 4:46:09elapsed 99%CPU (0avgtext+0avgdata 59752maxresident)k
+0inputs+17936outputs (0major+6908minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.42user 0.03system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 59676maxresident)k
+0inputs+640outputs (0major+6110minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60148maxresident)k
+256inputs+648outputs (0major+6048minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59848maxresident)k
+0inputs+640outputs (0major+6017minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.51elapsed 73%CPU (0avgtext+0avgdata 60228maxresident)k
+0inputs+640outputs (0major+6004minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59984maxresident)k
+0inputs+640outputs (0major+5989minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17086.52user 0.07system 4:44:48elapsed 99%CPU (0avgtext+0avgdata 60208maxresident)k
+272inputs+17928outputs (0major+7405minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.43user 0.03system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 60228maxresident)k
+0inputs+640outputs (0major+6126minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.04system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59904maxresident)k
+0inputs+640outputs (0major+6044minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.01system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59740maxresident)k
+0inputs+640outputs (0major+6014minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59900maxresident)k
+0inputs+640outputs (0major+6000minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.03system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+5985minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17144.68user 0.39system 4:45:46elapsed 99%CPU (0avgtext+0avgdata 59944maxresident)k
+0inputs+17928outputs (0major+7397minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.41user 0.03system 0:00.57elapsed 79%CPU (0avgtext+0avgdata 59944maxresident)k
+0inputs+640outputs (0major+6115minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.03system 0:00.56elapsed 68%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+6048minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59760maxresident)k
+0inputs+640outputs (0major+6010minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59904maxresident)k
+0inputs+640outputs (0major+5992minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 60144maxresident)k
+0inputs+640outputs (0major+5997minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17157.19user 0.40system 4:45:59elapsed 99%CPU (0avgtext+0avgdata 60240maxresident)k
+8inputs+17928outputs (0major+6911minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.44user 0.02system 0:00.58elapsed 80%CPU (0avgtext+0avgdata 59856maxresident)k
+0inputs+640outputs (0major+6119minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.03system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 60228maxresident)k
+0inputs+648outputs (0major+6051minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.41user 0.02system 0:00.60elapsed 73%CPU (0avgtext+0avgdata 60228maxresident)k
+0inputs+640outputs (0major+6026minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60128maxresident)k
+0inputs+640outputs (0major+6002minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59588maxresident)k
+0inputs+640outputs (0major+5979minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17130.69user 0.17system 4:45:33elapsed 99%CPU (0avgtext+0avgdata 59716maxresident)k
+0inputs+17928outputs (0major+6913minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.Command terminated by signal 6
+0.48user 0.05system 0:00.71elapsed 76%CPU (0avgtext+0avgdata 59688maxresident)k
+0inputs+648outputs (0major+6115minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.41user 0.01system 0:00.58elapsed 74%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+6052minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6018minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.51elapsed 73%CPU (0avgtext+0avgdata 60148maxresident)k
+0inputs+640outputs (0major+5999minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.54elapsed 70%CPU (0avgtext+0avgdata 59712maxresident)k
+0inputs+640outputs (0major+5979minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17202.31user 0.36system 4:46:44elapsed 99%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+17936outputs (0major+6909minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.42user 0.03system 0:00.58elapsed 78%CPU (0avgtext+0avgdata 59752maxresident)k
+0inputs+648outputs (0major+6120minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.52elapsed 74%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6046minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.04system 0:00.54elapsed 70%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6011minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60240maxresident)k
+0inputs+640outputs (0major+5992minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+5997minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17142.06user 0.04system 4:45:44elapsed 99%CPU (0avgtext+0avgdata 59688maxresident)k
+8inputs+17928outputs (0major+6369minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.05system 0:00.53elapsed 76%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+6121minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.37user 0.01system 0:00.51elapsed 74%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+6058minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59848maxresident)k
+0inputs+640outputs (0major+6009minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+5993minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59444maxresident)k
+0inputs+640outputs (0major+5977minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17170.62user 0.08system 4:46:12elapsed 99%CPU (0avgtext+0avgdata 59600maxresident)k
+0inputs+17928outputs (0major+6901minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.44user 0.04system 0:00.60elapsed 80%CPU (0avgtext+0avgdata 59340maxresident)k
+0inputs+648outputs (0major+6120minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59428maxresident)k
+0inputs+640outputs (0major+6027minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.51elapsed 73%CPU (0avgtext+0avgdata 59752maxresident)k
+0inputs+640outputs (0major+6003minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59904maxresident)k
+0inputs+640outputs (0major+5995minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60228maxresident)k
+0inputs+640outputs (0major+6000minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17133.06user 0.07system 4:45:35elapsed 99%CPU (0avgtext+0avgdata 59372maxresident)k
+8inputs+17928outputs (0major+6363minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.03system 0:00.53elapsed 75%CPU (0avgtext+0avgdata 59716maxresident)k
+0inputs+640outputs (0major+6095minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+648outputs (0major+6038minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.37user 0.01system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6012minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 60144maxresident)k
+0inputs+640outputs (0major+6001minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.02system 0:00.52elapsed 69%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+5979minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17095.43user 0.10system 4:44:57elapsed 99%CPU (0avgtext+0avgdata 59904maxresident)k
+0inputs+17928outputs (0major+6911minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.43user 0.05system 0:00.61elapsed 79%CPU (0avgtext+0avgdata 60148maxresident)k
+0inputs+640outputs (0major+6104minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+648outputs (0major+6028minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 60116maxresident)k
+0inputs+640outputs (0major+6008minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+Command terminated by signal 6
+0.33user 0.03system 0:00.55elapsed 66%CPU (0avgtext+0avgdata 60220maxresident)k
+0inputs+640outputs (0major+6014minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.39user 0.03system 0:00.58elapsed 73%CPU (0avgtext+0avgdata 60140maxresident)k
+0inputs+640outputs (0major+5986minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17141.46user 0.09system 4:45:43elapsed 99%CPU (0avgtext+0avgdata 60424maxresident)k
+0inputs+17928outputs (0major+6386minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.05system 0:00.52elapsed 76%CPU (0avgtext+0avgdata 59948maxresident)k
+0inputs+640outputs (0major+6123minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.Command terminated by signal 6
+0.34user 0.03system 0:00.54elapsed 69%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+648outputs (0major+6058minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60092maxresident)k
+0inputs+640outputs (0major+6025minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59980maxresident)k
+0inputs+640outputs (0major+5996minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60128maxresident)k
+0inputs+640outputs (0major+5991minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17094.40user 0.28system 4:44:56elapsed 99%CPU (0avgtext+0avgdata 59864maxresident)k
+0inputs+17936outputs (0major+7410minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.49user 0.03system 0:00.70elapsed 75%CPU (0avgtext+0avgdata 59600maxresident)k
+0inputs+648outputs (0major+6119minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 60240maxresident)k
+0inputs+640outputs (0major+6049minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.00system 0:00.50elapsed 73%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+6022minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59940maxresident)k
+0inputs+640outputs (0major+5987minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.37user 0.01system 0:00.54elapsed 70%CPU (0avgtext+0avgdata 60424maxresident)k
+0inputs+640outputs (0major+5998minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17134.48user 0.07system 4:45:36elapsed 99%CPU (0avgtext+0avgdata 59596maxresident)k
+0inputs+17936outputs (0major+7390minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.39user 0.05system 0:00.57elapsed 78%CPU (0avgtext+0avgdata 60420maxresident)k
+0inputs+640outputs (0major+6153minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.53elapsed 72%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6055minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.56elapsed 66%CPU (0avgtext+0avgdata 60148maxresident)k
+0inputs+640outputs (0major+6017minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59980maxresident)k
+0inputs+640outputs (0major+6000minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59540maxresident)k
+0inputs+640outputs (0major+5983minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17101.27user 0.08system 4:45:03elapsed 99%CPU (0avgtext+0avgdata 59712maxresident)k
+0inputs+17928outputs (0major+7402minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.42user 0.03system 0:00.57elapsed 78%CPU (0avgtext+0avgdata 59600maxresident)k
+0inputs+640outputs (0major+6102minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 72%CPU (0avgtext+0avgdata 60220maxresident)k
+0inputs+640outputs (0major+6052minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+5998minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.01system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59824maxresident)k
+0inputs+640outputs (0major+5996minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59820maxresident)k
+0inputs+648outputs (0major+5983minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17094.84user 0.05system 4:44:56elapsed 99%CPU (0avgtext+0avgdata 60144maxresident)k
+0inputs+17928outputs (0major+7404minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.45user 0.04system 0:00.61elapsed 80%CPU (0avgtext+0avgdata 59984maxresident)k
+0inputs+640outputs (0major+6100minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] Please report this to support@score-p.org. Thank you.
+Command terminated by signal 6
+0.33user 0.04system 0:00.54elapsed 69%CPU (0avgtext+0avgdata 60240maxresident)k
+0inputs+640outputs (0major+6047minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.34user 0.03system 0:00.51elapsed 73%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+6026minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.54elapsed 70%CPU (0avgtext+0avgdata 59740maxresident)k
+0inputs+640outputs (0major+5985minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.01system 0:00.52elapsed 69%CPU (0avgtext+0avgdata 60128maxresident)k
+0inputs+640outputs (0major+5990minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17081.41user 0.06system 4:44:43elapsed 99%CPU (0avgtext+0avgdata 59752maxresident)k
+0inputs+17928outputs (0major+7393minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.40user 0.04system 0:00.57elapsed 78%CPU (0avgtext+0avgdata 59444maxresident)k
+0inputs+640outputs (0major+6107minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+6029minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+640outputs (0major+6021minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+5983minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 59592maxresident)k
+0inputs+648outputs (0major+5978minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17091.44user 0.03system 4:44:52elapsed 99%CPU (0avgtext+0avgdata 60144maxresident)k
+0inputs+17936outputs (0major+6377minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+Command terminated by signal 6
+0.35user 0.04system 0:00.56elapsed 71%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6127minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.04system 0:00.52elapsed 71%CPU (0avgtext+0avgdata 59376maxresident)k
+0inputs+640outputs (0major+6026minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+6015minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.01system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59596maxresident)k
+0inputs+640outputs (0major+5997minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.02system 0:00.50elapsed 73%CPU (0avgtext+0avgdata 59356maxresident)k
+0inputs+648outputs (0major+5974minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17064.06user 0.03system 4:44:25elapsed 99%CPU (0avgtext+0avgdata 59448maxresident)k
+0inputs+17928outputs (0major+6363minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.36user 0.03system 0:00.52elapsed 76%CPU (0avgtext+0avgdata 59540maxresident)k
+0inputs+640outputs (0major+6101minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 71%CPU (0avgtext+0avgdata 59448maxresident)k
+0inputs+640outputs (0major+6042minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.02system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59820maxresident)k
+0inputs+640outputs (0major+6015minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Command terminated by signal 6
+0.35user 0.01system 0:00.56elapsed 66%CPU (0avgtext+0avgdata 59984maxresident)k
+0inputs+640outputs (0major+6005minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.02system 0:00.52elapsed 70%CPU (0avgtext+0avgdata 60232maxresident)k
+0inputs+648outputs (0major+6001minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+17115.32user 0.03system 4:45:17elapsed 99%CPU (0avgtext+0avgdata 59716maxresident)k
+0inputs+17928outputs (0major+8861minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.04system 0:00.55elapsed 71%CPU (0avgtext+0avgdata 59968maxresident)k
+0inputs+640outputs (0major+6130minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.03system 0:00.53elapsed 72%CPU (0avgtext+0avgdata 59600maxresident)k
+0inputs+640outputs (0major+6040minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.34user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 60148maxresident)k
+0inputs+640outputs (0major+6007minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: [Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.35user 0.01system 0:00.53elapsed 69%CPU (0avgtext+0avgdata 59788maxresident)k
+0inputs+648outputs (0major+6001minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+[Score-P] src/measurement/thread/fork_join/scorep_thread_fork_join_omp.c:402: Fatal: Bug 'TPD == 0': Invalid OpenMP thread specific data object. Please ensure that all omp parallel regions are instrumented.
+[Score-P] Please report this to support@score-p.org. Thank you.
+[Score-P] Try also to preserve any generated core dumps.
+Command terminated by signal 6
+0.33user 0.03system 0:00.53elapsed 70%CPU (0avgtext+0avgdata 59868maxresident)k
+0inputs+640outputs (0major+5991minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Command terminated by signal 9
+11018.35user 0.03system 3:03:39elapsed 99%CPU (0avgtext+0avgdata 60128maxresident)k
+0inputs+640outputs (0major+8164minor)pagefaults 0swaps

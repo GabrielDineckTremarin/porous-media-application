@@ -1,0 +1,10 @@
+SCOREP_REGION_NAMES_BEGIN
+INCLUDE
+ solve_u*
+ solve_v*
+ solve_p*
+ solve_z*
+ resU*
+ resV*
+ resZ*
+SCOREP_REGION_NAMES_END

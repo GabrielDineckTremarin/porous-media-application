@@ -1,0 +1,260 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 43.26     90.22    90.22   239997     0.38     0.40  resv_
+ 40.69    175.09    84.86   239997     0.35     0.38  resu_
+  7.07    189.84    14.75   239997     0.06     0.06  resz_
+  2.90    195.88     6.04 53279334     0.00     0.00  upwind_u_
+  2.58    201.27     5.39 53279334     0.00     0.00  upwind_v_
+  0.91    203.16     1.89    79999     0.02     1.22  solve_v_
+  0.87    204.97     1.81    79999     0.02     1.16  solve_u_
+  0.65    206.33     1.36    79999     0.02     0.03  solve_p_
+  0.47    207.31     0.98   239997     0.00     0.00  resp_
+  0.40    208.15     0.84    79999     0.01     0.20  solve_z_
+  0.14    208.45     0.30   479994     0.00     0.00  bcuv_
+  0.04    208.53     0.08   239997     0.00     0.00  bcz_
+  0.02    208.58     0.05   239997     0.00     0.00  bcp_
+  0.00    208.59     0.01        1    10.00    10.00  comp_mean_
+  0.00    208.59     0.01                             solve_res_v_
+  0.00    208.59     0.00    79999     0.00     0.00  convergence_
+  0.00    208.59     0.00        1     0.00     0.00  ic_
+  0.00    208.59     0.00        1     0.00     0.00  init_
+  0.00    208.59     0.00        1     0.00     0.00  mesh_
+  0.00    208.59     0.00        1     0.00     0.00  output_
+  0.00    208.59     0.00        1     0.00     0.00  properties_
+  0.00    208.59     0.00        1     0.00     0.00  transient_
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) for 0.00% of 208.59 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00  208.59                 MAIN__ [1]
+                1.89   95.76   79999/79999       solve_v_ [2]
+                1.81   91.05   79999/79999       solve_u_ [4]
+                0.84   14.81   79999/79999       solve_z_ [6]
+                1.36    1.03   79999/79999       solve_p_ [10]
+                0.03    0.00   79999/239997      bcz_ [13]
+                0.01    0.00       1/1           comp_mean_ [15]
+                0.00    0.00   79999/79999       convergence_ [17]
+                0.00    0.00       1/1           init_ [19]
+                0.00    0.00       1/1           properties_ [22]
+                0.00    0.00       1/1           mesh_ [20]
+                0.00    0.00       1/1           transient_ [23]
+                0.00    0.00       1/1           output_ [21]
+                0.00    0.00       1/1           ic_ [18]
+-----------------------------------------------
+                1.89   95.76   79999/79999       MAIN__ [1]
+[2]     46.8    1.89   95.76   79999         solve_v_ [2]
+               90.22    5.39  239997/239997      resv_ [3]
+                0.15    0.00  239997/479994      bcuv_ [12]
+-----------------------------------------------
+               90.22    5.39  239997/239997      solve_v_ [2]
+[3]     45.8   90.22    5.39  239997         resv_ [3]
+                5.39    0.00 53279334/53279334     upwind_v_ [9]
+-----------------------------------------------
+                1.81   91.05   79999/79999       MAIN__ [1]
+[4]     44.5    1.81   91.05   79999         solve_u_ [4]
+               84.86    6.04  239997/239997      resu_ [5]
+                0.15    0.00  239997/479994      bcuv_ [12]
+-----------------------------------------------
+               84.86    6.04  239997/239997      solve_u_ [4]
+[5]     43.6   84.86    6.04  239997         resu_ [5]
+                6.04    0.00 53279334/53279334     upwind_u_ [8]
+-----------------------------------------------
+                0.84   14.81   79999/79999       MAIN__ [1]
+[6]      7.5    0.84   14.81   79999         solve_z_ [6]
+               14.75    0.00  239997/239997      resz_ [7]
+                0.05    0.00  159998/239997      bcz_ [13]
+-----------------------------------------------
+               14.75    0.00  239997/239997      solve_z_ [6]
+[7]      7.1   14.75    0.00  239997         resz_ [7]
+-----------------------------------------------
+                6.04    0.00 53279334/53279334     resu_ [5]
+[8]      2.9    6.04    0.00 53279334         upwind_u_ [8]
+-----------------------------------------------
+                5.39    0.00 53279334/53279334     resv_ [3]
+[9]      2.6    5.39    0.00 53279334         upwind_v_ [9]
+-----------------------------------------------
+                1.36    1.03   79999/79999       MAIN__ [1]
+[10]     1.1    1.36    1.03   79999         solve_p_ [10]
+                0.98    0.00  239997/239997      resp_ [11]
+                0.05    0.00  239997/239997      bcp_ [14]
+-----------------------------------------------
+                0.98    0.00  239997/239997      solve_p_ [10]
+[11]     0.5    0.98    0.00  239997         resp_ [11]
+-----------------------------------------------
+                0.15    0.00  239997/479994      solve_u_ [4]
+                0.15    0.00  239997/479994      solve_v_ [2]
+[12]     0.1    0.30    0.00  479994         bcuv_ [12]
+-----------------------------------------------
+                0.03    0.00   79999/239997      MAIN__ [1]
+                0.05    0.00  159998/239997      solve_z_ [6]
+[13]     0.0    0.08    0.00  239997         bcz_ [13]
+-----------------------------------------------
+                0.05    0.00  239997/239997      solve_p_ [10]
+[14]     0.0    0.05    0.00  239997         bcp_ [14]
+-----------------------------------------------
+                0.01    0.00       1/1           MAIN__ [1]
+[15]     0.0    0.01    0.00       1         comp_mean_ [15]
+-----------------------------------------------
+                                                 <spontaneous>
+[16]     0.0    0.01    0.00                 solve_res_v_ [16]
+-----------------------------------------------
+                0.00    0.00   79999/79999       MAIN__ [1]
+[17]     0.0    0.00    0.00   79999         convergence_ [17]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[18]     0.0    0.00    0.00       1         ic_ [18]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[19]     0.0    0.00    0.00       1         init_ [19]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[20]     0.0    0.00    0.00       1         mesh_ [20]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[21]     0.0    0.00    0.00       1         output_ [21]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[22]     0.0    0.00    0.00       1         properties_ [22]
+-----------------------------------------------
+                0.00    0.00       1/1           MAIN__ [1]
+[23]     0.0    0.00    0.00       1         transient_ [23]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [14] bcp_                   [21] output_                 [4] solve_u_
+  [12] bcuv_                  [22] properties_             [2] solve_v_
+  [13] bcz_                   [11] resp_                   [6] solve_z_
+  [15] comp_mean_              [5] resu_                  [23] transient_
+  [17] convergence_            [3] resv_                   [8] upwind_u_
+  [18] ic_                     [7] resz_                   [9] upwind_v_
+  [19] init_                  [10] solve_p_
+  [20] mesh_                  [16] solve_res_v_

@@ -1,0 +1,151 @@
+Mode 0
+4.2360
+Mode 1
+gfortran
+	0.2377
+pgf90
+	0.1638
+	1.0688
+
+bcUV
+
+
+EXECUTION TIME =          2.7798 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	0m52,267s
+user	2m25,665s
+sys	0m21,136s
+
+
+EXECUTION TIME =          2.8415 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m0,591s
+user	2m22,575s
+sys	0m27,924s
+
+
+EXECUTION TIME =          3.3767 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	0m54,884s
+user	3m4,327s
+sys	0m18,290s
+
+EXECUTION TIME =          3.3698 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m12,229s
+user	2m50,722s
+sys	0m31,474s
+
+
+EXECUTION TIME =          3.4588 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	0m55,709s
+user	3m8,111s
+sys	0m19,439s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1thread
+EXECUTION TIME =          2.1407 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	2m20,246s
+user	2m3,819s
+sys	0m4,640s
+
+2thread
+EXECUTION TIME =          2.8150 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m55,753s
+user	2m37,789s
+sys	0m11,128s
+
+3thread
+EXECUTION TIME =          1.7228 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	0m51,472s
+user	1m36,555s
+sys	0m6,829s
+
+4thread
+EXECUTION TIME =          2.5577 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m1,436s
+user	2m21,841s
+sys	0m11,629s
+
+5thread
+EXECUTION TIME =          2.2080 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	0m45,051s
+user	2m1,049s
+sys	0m11,448s
+
+6thread
+EXECUTION TIME =          3.6325 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m5,631s
+user	3m18,086s
+sys	0m19,872s
+
+
+sequencial
+EXECUTION TIME =          1.7757 MINUTOS
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+
+real	1m50,304s
+user	1m42,945s
+sys	0m3,600s
+
+
+Resultados Numéricos
+comparar os resultados da versão original, previamente avaliada, com os resultados numéricos obtidos após a paralelização.
+
+
+Resultados de Paralelização com OpenMP
+- Fazer anotações de pragma OpenMP nos laços do código internos a etapa iterativa e de tempo.
+- Máquina de 6 cores
+- Limitou-se a 3 execuções da etapa iterativa.
+

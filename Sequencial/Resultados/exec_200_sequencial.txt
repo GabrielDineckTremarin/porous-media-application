@@ -1,0 +1,54 @@
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m30,002s
+user	80m27,566s
+sys	0m0,118s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m18,978s
+user	80m16,566s
+sys	0m0,087s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m47,287s
+user	80m44,953s
+sys	0m0,047s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m20,922s
+user	80m18,075s
+sys	0m0,188s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m34,374s
+user	80m31,941s
+sys	0m0,119s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m21,080s
+user	80m18,755s
+sys	0m0,105s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m23,415s
+user	80m21,023s
+sys	0m0,052s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m19,628s
+user	80m17,107s
+sys	0m0,132s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	80m31,797s
+user	80m29,432s
+sys	0m0,051s

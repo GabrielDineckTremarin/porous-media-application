@@ -1,0 +1,43 @@
+# MESH SYMMETRY
+To choose between axisymmetric mesh and nonsymmetric mesh just change the input archive in run.sh :
+mesh.f90 (symmetric in the left boundary)
+nonsymmetric_mesh.f90 (simulates entire domain)
+
+# MESH SIZE
+In the archive comum.f90 you can define imax (number of points in the x direction).
+The jmax (y-direction) is intrinsic from imax.
+The parameters Px_grid and Py_grid controls the mesh refinement.
+
+To plot the mesh and its boundaries just run:
+"python grid.py"
+
+# NUMERICAL PARAMETERS
+Some numerical parameters regarding the iterations and convergence criteria are stored in:
+"input/iteration.dat"
+
+The nondimensional parameters and time parameters are  in the beginning of the archive:
+"main.f90"
+
+# FUEL AND OXIDANT PARAMETERS
+Parameters regarding combustion are stores in:
+"input/reference.dat"
+and at the end of
+"comum.f90"
+
+To change the properties of the fuel just change the archive in run.sh:
+properties_C7H16.f90 (n-heptane)
+properties_CH4.f90 (methane)
+
+# PARTIAL RESULTS DURING COMPUTATION
+Running "pos.sh" you plot the last converged physical result.
+
+# ANIMATION
+Running "animation.sh" you plot every physical result stored at the folder "transient/data".
+*attention: depending on the number of physical iterations this could take a while. If this happens, press Ctrl+C to cancel the .mp4 converting process and look the raw exported .png images in "transient/" (the "convert" command used can take a lot of ram).
+
+# CLEANING DISPOSABLE DATA
+Running "cleaning.sh" you delete any plots and data that you don't need to restart the computation (e.g. old transient data).
+*attention: be careful, because this cleans the "data/" folder.
+
+# ARCHIVELOG
+"archivelog.log" stores what happens in the terminal emulator and show all the properties of the computation, such as current date, time and directory.

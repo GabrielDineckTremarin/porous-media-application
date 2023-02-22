@@ -1,0 +1,1270 @@
+Comando 'nohut' não encontrado, você quis dizer:
+  comando 'nohup' do deb coreutils (8.32-4.1ubuntu1)
+Experimente: apt install <deb name>
+nohup: ignorando entrada
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Command terminated by signal 2
+86.75user 5.75system 0:02.96elapsed 3118%CPU (0avgtext+0avgdata 8716maxresident)k
+0inputs+0outputs (24major+2088minor)pagefaults 0swaps
+nohup: ignorando entrada
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3837.31user 218.70system 2:07.78elapsed 3174%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (27major+6464minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1550.54user 79.76system 1:42.15elapsed 1595%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (10major+6291minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1075.08user 35.38system 2:19.04elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16952outputs (1major+5846minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.09user 15.71system 3:35.91elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16960outputs (0major+5736minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.13user 5.56system 6:11.01elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+9917minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.45user 0.03system 11:44.60elapsed 99%CPU (0avgtext+0avgdata 8652maxresident)k
+0inputs+16960outputs (0major+1299minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3725.62user 210.61system 2:04.04elapsed 3173%CPU (0avgtext+0avgdata 9072maxresident)k
+0inputs+16952outputs (37major+7821minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1527.67user 79.41system 1:40.69elapsed 1595%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16952outputs (4major+5907minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1072.86user 34.01system 2:18.60elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (1major+5408minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+845.17user 15.38system 3:35.35elapsed 399%CPU (0avgtext+0avgdata 8900maxresident)k
+0inputs+16960outputs (1major+9671minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.97user 5.31system 6:11.34elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16960outputs (0major+8673minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.66user 0.03system 11:44.78elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16952outputs (0major+1294minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3680.98user 209.75system 2:02.53elapsed 3175%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16960outputs (24major+7862minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1585.34user 78.12system 1:44.22elapsed 1596%CPU (0avgtext+0avgdata 8868maxresident)k
+0inputs+16952outputs (12major+5588minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1069.09user 32.94system 2:17.99elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (0major+12295minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+836.19user 14.64system 3:32.92elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (0major+6565minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.02user 5.34system 6:10.89elapsed 199%CPU (0avgtext+0avgdata 8856maxresident)k
+0inputs+16952outputs (0major+10031minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.96user 0.00system 11:45.07elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1291minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3610.86user 207.05system 2:00.35elapsed 3172%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (57major+6801minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1559.90user 79.28system 1:42.70elapsed 1595%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16968outputs (5major+7731minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1073.15user 34.55system 2:18.70elapsed 798%CPU (0avgtext+0avgdata 8904maxresident)k
+0inputs+16952outputs (1major+4846minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+845.80user 15.58system 3:35.56elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16960outputs (1major+6682minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.81user 5.79system 6:11.48elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+9711minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.56user 0.01system 11:44.68elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16960outputs (0major+1294minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3696.29user 207.71system 2:03.04elapsed 3172%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (34major+7438minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1528.39user 79.21system 1:40.74elapsed 1595%CPU (0avgtext+0avgdata 8928maxresident)k
+0inputs+16952outputs (13major+5475minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1073.42user 33.69system 2:18.63elapsed 798%CPU (0avgtext+0avgdata 8920maxresident)k
+0inputs+16960outputs (0major+5788minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+846.31user 15.41system 3:35.64elapsed 399%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16952outputs (1major+4920minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+734.65user 5.49system 6:10.23elapsed 199%CPU (0avgtext+0avgdata 8788maxresident)k
+0inputs+16960outputs (0major+9144minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.62user 0.03system 11:44.75elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16952outputs (0major+1291minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3565.69user 209.97system 1:59.20elapsed 3167%CPU (0avgtext+0avgdata 9112maxresident)k
+0inputs+16960outputs (24major+7512minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1537.11user 79.36system 1:41.28elapsed 1595%CPU (0avgtext+0avgdata 8932maxresident)k
+0inputs+16952outputs (4major+5860minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1074.93user 33.40system 2:18.78elapsed 798%CPU (0avgtext+0avgdata 8908maxresident)k
+0inputs+16960outputs (2major+4898minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.12user 14.76system 3:35.68elapsed 399%CPU (0avgtext+0avgdata 8872maxresident)k
+0inputs+16952outputs (1major+6513minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.55user 5.45system 6:11.16elapsed 199%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (0major+9096minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.16user 0.02system 11:45.27elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16960outputs (0major+1300minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3722.86user 215.98system 2:04.18elapsed 3171%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16952outputs (16major+7807minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1576.22user 82.09system 1:43.89elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (13major+5318minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1074.74user 34.25system 2:18.86elapsed 798%CPU (0avgtext+0avgdata 8908maxresident)k
+0inputs+16952outputs (1major+4538minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+845.61user 15.81system 3:35.57elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16960outputs (1major+6226minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+734.77user 5.17system 6:10.22elapsed 199%CPU (0avgtext+0avgdata 8796maxresident)k
+0inputs+16960outputs (0major+9543minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.69user 0.03system 11:44.82elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1302minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3588.46user 209.20system 1:59.61elapsed 3174%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (60major+8897minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1560.28user 80.03system 1:42.77elapsed 1596%CPU (0avgtext+0avgdata 8936maxresident)k
+0inputs+16952outputs (3major+5404minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1071.19user 34.35system 2:18.43elapsed 798%CPU (0avgtext+0avgdata 8904maxresident)k
+0inputs+16960outputs (0major+5352minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.69user 15.86system 3:36.10elapsed 399%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16952outputs (0major+8638minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+732.93user 5.02system 6:09.15elapsed 199%CPU (0avgtext+0avgdata 8784maxresident)k
+0inputs+16960outputs (0major+9565minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.70user 0.02system 11:44.82elapsed 99%CPU (0avgtext+0avgdata 8632maxresident)k
+0inputs+16952outputs (0major+1294minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3433.03user 198.02system 1:54.31elapsed 3176%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16960outputs (27major+8007minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1585.16user 80.03system 1:44.33elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (5major+6555minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1070.72user 34.05system 2:18.33elapsed 798%CPU (0avgtext+0avgdata 8920maxresident)k
+0inputs+16968outputs (0major+6564minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.64user 15.91system 3:36.10elapsed 399%CPU (0avgtext+0avgdata 8832maxresident)k
+0inputs+16952outputs (1major+5801minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.66user 5.62system 6:10.80elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+9691minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.12user 0.01system 11:45.26elapsed 99%CPU (0avgtext+0avgdata 8652maxresident)k
+0inputs+16960outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3585.14user 207.75system 1:59.47elapsed 3174%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16952outputs (26major+6254minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1577.06user 82.56system 1:43.98elapsed 1596%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16960outputs (9major+5922minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1069.79user 34.53system 2:18.27elapsed 798%CPU (0avgtext+0avgdata 8908maxresident)k
+0inputs+16952outputs (1major+5300minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+861.34user 11.52system 3:38.43elapsed 399%CPU (0avgtext+0avgdata 8900maxresident)k
+0inputs+16960outputs (0major+6768minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.50user 5.43system 6:11.13elapsed 199%CPU (0avgtext+0avgdata 8792maxresident)k
+0inputs+16952outputs (0major+9677minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.48user 0.02system 11:44.60elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1299minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3536.15user 205.28system 1:57.81elapsed 3175%CPU (0avgtext+0avgdata 9072maxresident)k
+0inputs+16952outputs (3major+8090minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1598.37user 80.01system 1:45.15elapsed 1596%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16952outputs (24major+5195minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1051.53user 32.43system 2:15.73elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (0major+6275minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+845.51user 15.02system 3:35.39elapsed 399%CPU (0avgtext+0avgdata 8840maxresident)k
+0inputs+16952outputs (0major+7401minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.80user 5.45system 6:10.82elapsed 199%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16960outputs (0major+10374minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.90user 0.02system 11:45.01elapsed 99%CPU (0avgtext+0avgdata 8628maxresident)k
+0inputs+16952outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3726.12user 212.47system 2:04.07elapsed 3174%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16960outputs (39major+7353minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1499.54user 77.22system 1:38.80elapsed 1595%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (5major+5937minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1065.15user 33.59system 2:17.58elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16960outputs (0major+4983minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.77user 15.81system 3:36.11elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (0major+5253minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.73user 5.46system 6:11.25elapsed 199%CPU (0avgtext+0avgdata 8792maxresident)k
+0inputs+16952outputs (0major+9098minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.09user 0.01system 11:45.19elapsed 99%CPU (0avgtext+0avgdata 8652maxresident)k
+0inputs+16968outputs (0major+1296minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3662.61user 212.66system 2:02.10elapsed 3173%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16952outputs (40major+8165minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1550.85user 79.46system 1:42.15elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (14major+5324minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1075.15user 34.30system 2:18.92elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16952outputs (0major+4482minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+835.42user 13.66system 3:32.48elapsed 399%CPU (0avgtext+0avgdata 8840maxresident)k
+0inputs+16960outputs (1major+5754minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+737.00user 5.72system 6:11.52elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+9044minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.19user 0.01system 11:45.30elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16960outputs (0major+1297minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3616.54user 212.29system 2:00.71elapsed 3171%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (37major+7764minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1554.25user 80.73system 1:42.44elapsed 1595%CPU (0avgtext+0avgdata 8940maxresident)k
+0inputs+16952outputs (12major+6914minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1071.38user 35.27system 2:18.57elapsed 798%CPU (0avgtext+0avgdata 8852maxresident)k
+0inputs+16960outputs (3major+4969minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+835.38user 14.64system 3:32.72elapsed 399%CPU (0avgtext+0avgdata 8892maxresident)k
+0inputs+16960outputs (0major+11717minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+737.01user 5.61system 6:11.50elapsed 199%CPU (0avgtext+0avgdata 8800maxresident)k
+0inputs+16960outputs (0major+10661minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.46user 0.00system 11:45.56elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16952outputs (0major+1299minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3583.64user 203.78system 1:59.38elapsed 3172%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16960outputs (11major+7077minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1576.97user 81.93system 1:43.93elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (15major+5980minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1055.20user 33.52system 2:16.33elapsed 798%CPU (0avgtext+0avgdata 8844maxresident)k
+0inputs+16960outputs (0major+4606minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+848.41user 15.86system 3:36.28elapsed 399%CPU (0avgtext+0avgdata 8828maxresident)k
+0inputs+16952outputs (0major+6488minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.96user 5.29system 6:10.83elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+9491minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.15user 0.00system 11:45.25elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1299minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3803.59user 218.17system 2:06.76elapsed 3172%CPU (0avgtext+0avgdata 9112maxresident)k
+0inputs+16952outputs (31major+8307minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1565.89user 78.58system 1:43.03elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (10major+5137minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1077.28user 35.77system 2:19.37elapsed 798%CPU (0avgtext+0avgdata 8896maxresident)k
+0inputs+16952outputs (1major+4707minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+850.22user 15.59system 3:36.66elapsed 399%CPU (0avgtext+0avgdata 8868maxresident)k
+0inputs+16960outputs (0major+6062minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.77user 5.80system 6:10.95elapsed 199%CPU (0avgtext+0avgdata 8848maxresident)k
+0inputs+16952outputs (0major+9681minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.11user 0.01system 11:45.21elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3822.96user 219.65system 2:07.29elapsed 3175%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (2major+8755minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1529.43user 76.92system 1:40.65elapsed 1595%CPU (0avgtext+0avgdata 8936maxresident)k
+0inputs+16952outputs (14major+4449minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1069.75user 34.71system 2:18.30elapsed 798%CPU (0avgtext+0avgdata 8900maxresident)k
+0inputs+16960outputs (0major+6328minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+848.88user 16.12system 3:36.47elapsed 399%CPU (0avgtext+0avgdata 8884maxresident)k
+0inputs+16952outputs (0major+6169minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.73user 5.73system 6:11.40elapsed 199%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (0major+10456minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.99user 0.02system 11:45.15elapsed 99%CPU (0avgtext+0avgdata 8624maxresident)k
+0inputs+16952outputs (0major+1302minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3675.49user 212.32system 2:02.45elapsed 3174%CPU (0avgtext+0avgdata 9092maxresident)k
+0inputs+16968outputs (57major+7560minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1571.46user 80.55system 1:43.50elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (2major+4687minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1066.95user 33.51system 2:17.80elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (1major+6282minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+856.11user 15.58system 3:38.14elapsed 399%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16952outputs (1major+5835minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+734.38user 5.42system 6:10.06elapsed 199%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16952outputs (0major+9050minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.42user 0.03system 11:44.53elapsed 99%CPU (0avgtext+0avgdata 8652maxresident)k
+0inputs+16960outputs (0major+1297minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3572.23user 204.30system 1:59.10elapsed 3170%CPU (0avgtext+0avgdata 9068maxresident)k
+0inputs+16952outputs (42major+6957minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1560.20user 80.84system 1:42.81elapsed 1596%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16960outputs (1major+5681minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1074.19user 35.15system 2:18.90elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16952outputs (0major+4746minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+850.28user 15.98system 3:36.78elapsed 399%CPU (0avgtext+0avgdata 8840maxresident)k
+0inputs+16960outputs (0major+4883minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.31user 5.47system 6:10.57elapsed 199%CPU (0avgtext+0avgdata 8796maxresident)k
+0inputs+16952outputs (0major+9278minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.68user 0.01system 11:44.79elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16960outputs (0major+1297minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3673.06user 210.05system 2:02.24elapsed 3176%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16952outputs (1major+7462minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1495.93user 74.84system 1:38.43elapsed 1595%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16952outputs (0major+6492minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1067.30user 35.06system 2:18.03elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (0major+5971minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+845.76user 15.38system 3:35.50elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (1major+8242minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.38user 5.48system 6:11.09elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16960outputs (0major+8792minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.81user 0.02system 11:45.93elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16952outputs (0major+1294minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3669.50user 214.70system 2:02.60elapsed 3168%CPU (0avgtext+0avgdata 9024maxresident)k
+0inputs+16960outputs (28major+7556minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1577.54user 81.91system 1:43.97elapsed 1596%CPU (0avgtext+0avgdata 8940maxresident)k
+0inputs+16952outputs (4major+5078minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1077.85user 36.28system 2:19.51elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (0major+4593minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+846.83user 14.97system 3:35.66elapsed 399%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16960outputs (1major+7448minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.26user 5.36system 6:10.97elapsed 199%CPU (0avgtext+0avgdata 8856maxresident)k
+0inputs+16952outputs (0major+9575minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+706.30user 0.04system 11:46.47elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16960outputs (0major+1299minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3635.24user 212.78system 2:01.87elapsed 3157%CPU (0avgtext+0avgdata 9068maxresident)k
+0inputs+16952outputs (32major+8812minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1563.34user 79.97system 1:42.96elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (3major+5869minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1056.56user 32.80system 2:16.41elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16952outputs (2major+5026minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+850.79user 16.15system 3:36.95elapsed 399%CPU (0avgtext+0avgdata 8884maxresident)k
+0inputs+16960outputs (1major+7052minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+737.27user 5.29system 6:11.45elapsed 199%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16952outputs (0major+9331minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+706.15user 0.02system 11:46.28elapsed 99%CPU (0avgtext+0avgdata 8628maxresident)k
+0inputs+16960outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3788.97user 219.41system 2:06.95elapsed 3157%CPU (0avgtext+0avgdata 9080maxresident)k
+0inputs+16952outputs (17major+7314minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1489.65user 77.38system 1:38.19elapsed 1595%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (4major+5252minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1081.05user 34.72system 2:19.71elapsed 798%CPU (0avgtext+0avgdata 8920maxresident)k
+0inputs+16960outputs (3major+5888minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+849.63user 16.21system 3:36.69elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (0major+9815minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+737.48user 5.32system 6:11.56elapsed 199%CPU (0avgtext+0avgdata 8788maxresident)k
+0inputs+16960outputs (0major+9485minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+707.70user 0.01system 11:47.81elapsed 99%CPU (0avgtext+0avgdata 8592maxresident)k
+0inputs+16952outputs (0major+1300minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3991.55user 252.02system 2:14.63elapsed 3151%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16960outputs (28major+9234minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1595.77user 82.75system 1:45.16elapsed 1596%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16952outputs (10major+7256minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1078.97user 33.52system 2:19.30elapsed 798%CPU (0avgtext+0avgdata 8920maxresident)k
+0inputs+16960outputs (0major+8335minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+859.58user 11.83system 3:38.07elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (1major+6741minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+737.63user 5.31system 6:11.63elapsed 199%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16952outputs (0major+9057minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.56user 0.01system 11:45.68elapsed 99%CPU (0avgtext+0avgdata 8564maxresident)k
+0inputs+16960outputs (0major+1304minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3803.81user 244.97system 2:08.48elapsed 3151%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16952outputs (1major+7828minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1607.39user 83.72system 1:45.95elapsed 1596%CPU (0avgtext+0avgdata 8876maxresident)k
+0inputs+16960outputs (1major+4989minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1081.49user 34.73system 2:19.77elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16952outputs (2major+4611minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+849.23user 15.76system 3:36.53elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16960outputs (0major+6950minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.34user 5.35system 6:10.52elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+10208minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.83user 0.02system 11:45.95elapsed 99%CPU (0avgtext+0avgdata 8640maxresident)k
+0inputs+16960outputs (0major+1301minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3767.21user 216.89system 2:06.21elapsed 3156%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16952outputs (30major+6533minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1555.53user 80.76system 1:42.52elapsed 1595%CPU (0avgtext+0avgdata 8928maxresident)k
+0inputs+16952outputs (2major+6823minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1073.50user 33.43system 2:18.60elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (1major+6038minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+849.53user 15.37system 3:36.44elapsed 399%CPU (0avgtext+0avgdata 8884maxresident)k
+0inputs+16952outputs (1major+5832minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+736.13user 5.39system 6:10.94elapsed 199%CPU (0avgtext+0avgdata 8788maxresident)k
+0inputs+16968outputs (0major+9213minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+707.13user 0.02system 11:47.25elapsed 99%CPU (0avgtext+0avgdata 8572maxresident)k
+0inputs+16952outputs (0major+1294minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+4256.27user 258.23system 2:22.72elapsed 3163%CPU (0avgtext+0avgdata 9056maxresident)k
+0inputs+16960outputs (0major+7512minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1478.47user 76.70system 1:37.45elapsed 1595%CPU (0avgtext+0avgdata 8872maxresident)k
+0inputs+16952outputs (0major+6579minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1072.80user 35.06system 2:18.72elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (3major+5251minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+848.39user 15.85system 3:36.27elapsed 399%CPU (0avgtext+0avgdata 8872maxresident)k
+0inputs+16952outputs (0major+6876minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.55user 5.58system 6:10.73elapsed 199%CPU (0avgtext+0avgdata 8808maxresident)k
+0inputs+16952outputs (0major+10370minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.49user 0.02system 11:44.61elapsed 99%CPU (0avgtext+0avgdata 8588maxresident)k
+0inputs+16960outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3558.93user 208.04system 1:58.56elapsed 3177%CPU (0avgtext+0avgdata 9080maxresident)k
+0inputs+16952outputs (39major+7616minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1590.86user 74.08system 1:44.31elapsed 1596%CPU (0avgtext+0avgdata 8880maxresident)k
+0inputs+16960outputs (11major+5335minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1066.77user 34.58system 2:17.91elapsed 798%CPU (0avgtext+0avgdata 8860maxresident)k
+0inputs+16960outputs (1major+4883minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+844.49user 15.27system 3:35.16elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16960outputs (1major+5962minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+735.69user 5.48system 6:10.78elapsed 199%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (0major+10301minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+705.04user 0.01system 11:45.15elapsed 99%CPU (0avgtext+0avgdata 8628maxresident)k
+0inputs+16960outputs (0major+1296minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3599.31user 208.58system 2:00.20elapsed 3167%CPU (0avgtext+0avgdata 9084maxresident)k
+0inputs+16952outputs (69major+8538minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1524.33user 80.50system 1:40.56elapsed 1595%CPU (0avgtext+0avgdata 8916maxresident)k
+0inputs+16952outputs (17major+6101minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1070.71user 35.47system 2:18.51elapsed 798%CPU (0avgtext+0avgdata 8864maxresident)k
+0inputs+16960outputs (0major+5265minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+849.67user 16.20system 3:36.68elapsed 399%CPU (0avgtext+0avgdata 8812maxresident)k
+0inputs+16952outputs (1major+5976minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+734.18user 5.75system 6:10.13elapsed 199%CPU (0avgtext+0avgdata 8868maxresident)k
+0inputs+16960outputs (0major+9873minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.18user 0.01system 11:44.30elapsed 99%CPU (0avgtext+0avgdata 8640maxresident)k
+0inputs+16952outputs (0major+1298minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+3625.98user 210.11system 2:00.92elapsed 3172%CPU (0avgtext+0avgdata 9060maxresident)k
+0inputs+16960outputs (25major+8358minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1545.68user 77.43system 1:41.70elapsed 1595%CPU (0avgtext+0avgdata 8852maxresident)k
+0inputs+16952outputs (11major+5703minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+1057.60user 34.04system 2:16.69elapsed 798%CPU (0avgtext+0avgdata 8852maxresident)k
+0inputs+16960outputs (3major+5292minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+847.21user 15.84system 3:35.97elapsed 399%CPU (0avgtext+0avgdata 8836maxresident)k
+0inputs+16952outputs (1major+5558minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+734.00user 5.10system 6:09.71elapsed 199%CPU (0avgtext+0avgdata 8844maxresident)k
+0inputs+16952outputs (0major+9877minor)pagefaults 0swaps
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+704.75user 0.02system 11:44.86elapsed 99%CPU (0avgtext+0avgdata 8576maxresident)k
+0inputs+16960outputs (0major+1297minor)pagefaults 0swaps

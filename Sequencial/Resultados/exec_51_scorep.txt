@@ -1,0 +1,68 @@
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+
+real	76m53,028s
+user	76m51,042s
+sys	0m0,028s
+rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
+rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,000s
+sys	0m0,001s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,002s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+./run.sh: linha 40: ./cylinder_solver.out: Arquivo ou diretório inexistente
+
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
