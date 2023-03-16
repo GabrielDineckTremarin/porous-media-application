@@ -34,7 +34,31 @@ subroutine RESU(um,vm,p,RU)
         De = (epsilon1(i,j)/Re) * areau_e(j) / (xm(i+1)-xm(i  ))
         Dw = (epsilon1(i,j)/Re) * areau_w(j) / (xm(i  )-xm(i-1))
 
-        CALL quick(ap,aw,aww,ae,aee,an,ann,as,ass,fw,fe,fn,fs,df,Dw,De,Dn,Ds)
+        !CALL quick(ap,aw,aww,ae,aee,an,ann,as,ass,fw,fe,fn,fs,df,Dw,De,Dn,Ds)
+        aw = Dw + 0.75d0  * alpha(fw) * fw &
+                + 0.125d0 * alpha(fe) * fe &
+                + 0.375d0 * ( 1.0d0 - alpha(fw) ) * fw
+
+        ae = De - 0.375d0* alpha(fe) * fe &
+                - 0.75d0  * ( 1.0d0 - alpha(fe) ) * fe &
+                - 0.125d0 * ( 1.0d0 - alpha(fw) ) * fw
+
+        as = Ds + 0.75d0  * alpha(fs) * fs &
+                + 0.125d0 * alpha(fn) * fn &
+                + 0.375d0 * ( 1.0d0 - alpha(fs) ) * fs
+
+        an = Dn - 0.375d0* alpha(fn) * fn &
+                - 0.75d0  * ( 1.0d0 - alpha(fn) ) * fn &
+                - 0.125d0 * ( 1.0d0 - alpha(fs) ) * fs
+
+        aww = -0.125d0 *           alpha(fw)   * fw
+        aee =  0.125d0 * ( 1.0d0 - alpha(fe) ) * fe
+        ass = -0.125d0 *           alpha(fs)   * fs
+        ann =  0.125d0 * ( 1.0d0 - alpha(fn) ) * fn
+
+        ap = aw + ae + as + an + aww + aee + ass + ann + df
+        !end Quick
+
 
         u_W  = um(i-1,j  )
         u_WW = um(i-2,j  )
@@ -338,7 +362,31 @@ subroutine RESV(um,vm,p,T,InvFr2,RV)
         De = (epsilon1(i,j)/Re) * areav_e(j) / (x(i+1)-x(i  ))
         Dw = (epsilon1(i,j)/Re) * areav_w(j) / (x(i  )-x(i-1))
 
-        CALL quick(ap,aw,aww,ae,aee,an,ann,as,ass,fw,fe,fn,fs,df,Dw,De,Dn,Ds)
+        !CALL quick(ap,aw,aww,ae,aee,an,ann,as,ass,fw,fe,fn,fs,df,Dw,De,Dn,Ds)
+        aw = Dw + 0.75d0  * alpha(fw) * fw &
+                + 0.125d0 * alpha(fe) * fe &
+                + 0.375d0 * ( 1.0d0 - alpha(fw) ) * fw
+
+        ae = De - 0.375d0* alpha(fe) * fe &
+                - 0.75d0  * ( 1.0d0 - alpha(fe) ) * fe &
+                - 0.125d0 * ( 1.0d0 - alpha(fw) ) * fw
+
+        as = Ds + 0.75d0  * alpha(fs) * fs &
+                + 0.125d0 * alpha(fn) * fn &
+                + 0.375d0 * ( 1.0d0 - alpha(fs) ) * fs
+
+        an = Dn - 0.375d0* alpha(fn) * fn &
+                - 0.75d0  * ( 1.0d0 - alpha(fn) ) * fn &
+                - 0.125d0 * ( 1.0d0 - alpha(fs) ) * fs
+
+        aww = -0.125d0 *           alpha(fw)   * fw
+        aee =  0.125d0 * ( 1.0d0 - alpha(fe) ) * fe
+        ass = -0.125d0 *           alpha(fs)   * fs
+        ann =  0.125d0 * ( 1.0d0 - alpha(fn) ) * fn
+
+        ap = aw + ae + as + an + aww + aee + ass + ann + df
+        !end Quick
+
 
         v_W  = vm(i-1,j  )
         v_WW = vm(i-2,j  )

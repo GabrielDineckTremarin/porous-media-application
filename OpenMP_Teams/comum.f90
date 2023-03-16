@@ -12,7 +12,7 @@ MODULE comum
         INTEGER  :: n_out          !salva resultados preliminares
         INTEGER  :: n_vort         !salva dados do vortice
         INTEGER  :: restart_mode   !tipo de start, se eh CI ou solucao anterior
-        INTEGER  :: numThreads =16        
+        INTEGER  :: numThreads =8        
         REAL(8)  :: dtau, dt, dt_p, time, pseudo_time, final_time        !passo de tempo
         REAL(8)  :: eps , eps_mass  !criterio de convergencia  
         REAL(8)  :: beta          !parâmetro de compressi        

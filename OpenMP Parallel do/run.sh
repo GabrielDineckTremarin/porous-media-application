@@ -11,7 +11,7 @@ fi
 export NO_STOP_MESSAGE=yes
 
 #/opt/nvidia/hpc_sdk/Linux_x86_64/21.2/compilers/bin/pgf90 -O3 -fopenmp \
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.1/compilers/bin/pgf90 -O3 -mp -Minfo=all \
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.1/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=all \
       comum.f90 \
 properties_CH4.f90 \
        initial.f90 \

@@ -46,7 +46,7 @@ subroutine bcUV(um,vm)
         !um(2,j) = 0.d0 !symmetry
         !um(1,j) = 0.d0 !symmetry
         um(2,j) = 2.d0*um(4  ,j) - um(3,j)  !Darcy
-        um(1,j) = 2.d0*um(3  ,j) - um(2,j)	!Darcy
+        um(1,j) = 2.d0*um(3  ,j) - um(2,j)  !Darcy
       !    um(2,j) = 0.d0
       !  um(1,j) = 0.d0
     ENDDO
@@ -168,14 +168,14 @@ SUBROUTINE bcZ(Zn)
             gradZ_y(i,j) = y(i) * ( Zn(i,j+1) - Zn(i,j  ) ) * dy(j+1)
             
         enddo
-!!$omp parallel do private(i, j)
+! $omp parallel do private(i, j)
         do i=2,imax
             do j=2,jmax
             gradZ_x(i,j) = x(i) * ( Zn(i,j) - Zn(i-1,j  ) ) * dx(i)
             gradZ_y(i,j) = y(j) * ( Zn(i,j) - Zn(i  ,j-1) ) * dy(j)
             enddo
         enddo
-!!$OMP END PARALLEL DO
+! $OMP END PARALLEL DO
         
    !     do i=1,imax
    !         do j=1,jmax
@@ -211,15 +211,15 @@ SUBROUTINE bcH(H)
         H(1  ,j) = H(2,j)
         H(imax,j) = H(imax-1,j)
     enddo
-!!$omp parallel do private(i, j) 
-    do i=1,imax
-        do j=1,jmax
+! $omp parallel do private(i, j) 
+    do j=1,jmax
+        do i=1,imax
             if (flag(i,j) .eq. C_B.or.flag(i,j) .eq. C_I) then
                 H(i,j) = Lf*Tsup/q + 1.d0/ (S + 1.d0)
             endif
         enddo
     enddo
-!!$OMP END PARALLEL DO
+! $OMP END PARALLEL DO
 
 RETURN
 END SUBROUTINE bcH
