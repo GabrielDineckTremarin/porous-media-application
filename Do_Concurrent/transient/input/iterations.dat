@@ -1,0 +1,14 @@
+&iterations
+itc_max  = 4,  !20000   !max iterations
+nc       = 1,         !erros
+n_tr     = 1,        !plot transient
+n_out    = 10000,        !save results
+n_vort   = 10000,        !save vorticity data
+beta     = 1300,          !compressibility parameter, range of 1 - 10 are recommended
+b_art    = 0.0,        !coeficiente de dissipacao artificial
+dtau_f     = 10e+5,       !dt correction factor
+final_time = 1. !10.,       !final physical time value
+eps      = 1e-4,       !convergence criteria
+eps_mass = 1e-4        !mass convergence criteria
+start_mode = 1       !tipo de start= 0 para CI, 1 para solucao anterior, 2 para novo dominio
+&end
