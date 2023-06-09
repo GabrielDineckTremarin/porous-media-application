@@ -93,39 +93,39 @@ IMPLICIT NONE
         5 FORMAT ( 'Date ', i2.2, '/', i2.2, '/', i4.4, &
                    '; time ',i2.2, ':', i2.2, ':', i2.2 )
 
-            WRITE(*,*) '----------------------'
-            WRITE(*,5)  today(2), today(1), today(3), now
-            WRITE(*,*) 'Current working directory: ',trim(pwd)
-            WRITE(*,*) '----------------------'
-            WRITE(*,*) 'Tsup =',Tsup
-            WRITE(*,*) 'Tinf =',Tinf
-            WRITE(*,*) '----------------------'
-            WRITE(*,*) 'Mesh =',imax,'x',jmax 
-            WRITE(*,*) 'imax * jmax =', int(imax*jmax)
-            WRITE(*,*) 'eps =',eps
-            WRITE(*,*) '----------------------'
-            WRITE(*,*) 'alpha =',alpha_tot  , '[m^2/s]'
-            WRITE(*,*) 'cp =   ',cp_tot     , '[J/kgK]'
-            WRITE(*,*) 'k =    ',k_tot      , '[W/mK]'
-            WRITE(*,*) 'rho =  ',rho_tot    , '[kg/m^3]'
-            WRITE(*,*) 'nu =   ',nu_tot     , '[m^2/s]'
-            WRITE(*,*) 'mu =   ',nu_tot*rho_tot, '[kg/ms]'
-            WRITE(*,*) '----------------------'
-            WRITE(*,*) 'v_c ='  ,v_c        , '[m/s]'
-            WRITE(*,*) 'L_c ='  ,L_c        , '[m]'
-            WRITE(*,*) 't_c ='  ,L_c/v_c    , '[s]'
-            WRITE(*,*) 'v_i ='  ,v_i
-            WRITE(*,*) 'V_idim ='  ,v_i*v_c , '[m/s]'
-            WRITE(*,*) '----------------------'
-            WRITE(*,*) 'g = '  ,g , '[m/s^2]'
-            WRITE(*,*) 'S = '  ,S
-            WRITE(*,*) 'q = '  ,q
-            WRITE(*,*) 'Pr ='  ,Pr
-            WRITE(*,*) 'Re ='  ,Re
-            WRITE(*,*) 'Pe ='  ,Pe
-            WRITE(*,*) 'Fr ='  ,Fr
-            WRITE(*,*) 'InvFr^2 =',InvFr2
-            WRITE(*,*) '----------------------'
+         !   WRITE(*,*) '----------------------'
+          !  WRITE(*,5)  today(2), today(1), today(3), now
+          !  WRITE(*,*) 'Current working directory: ',trim(pwd)
+          !  WRITE(*,*) '----------------------'
+          !  WRITE(*,*) 'Tsup =',Tsup
+          !  WRITE(*,*) 'Tinf =',Tinf
+          !  WRITE(*,*) '----------------------'
+          !  WRITE(*,*) 'Mesh =',imax,'x',jmax 
+          !  WRITE(*,*) 'imax * jmax =', int(imax*jmax)
+          !  WRITE(*,*) 'eps =',eps
+          !  WRITE(*,*) '----------------------'
+          !  WRITE(*,*) 'alpha =',alpha_tot  , '[m^2/s]'
+           ! WRITE(*,*) 'cp =   ',cp_tot     , '[J/kgK]'
+           ! WRITE(*,*) 'k =    ',k_tot      , '[W/mK]'
+           ! WRITE(*,*) 'rho =  ',rho_tot    , '[kg/m^3]'
+           ! WRITE(*,*) 'nu =   ',nu_tot     , '[m^2/s]'
+           ! WRITE(*,*) 'mu =   ',nu_tot*rho_tot, '[kg/ms]'
+           ! WRITE(*,*) '----------------------'
+           ! WRITE(*,*) 'v_c ='  ,v_c        , '[m/s]'
+           ! WRITE(*,*) 'L_c ='  ,L_c        , '[m]'
+     !       WRITE(*,*) 't_c ='  ,L_c/v_c    , '[s]'
+      !      WRITE(*,*) 'v_i ='  ,v_i
+       !     WRITE(*,*) 'V_idim ='  ,v_i*v_c , '[m/s]'
+        !    WRITE(*,*) '----------------------'
+           ! WRITE(*,*) 'g = '  ,g , '[m/s^2]'
+    !        WRITE(*,*) 'S = '  ,S
+    !        WRITE(*,*) 'q = '  ,q
+    !        WRITE(*,*) 'Pr ='  ,Pr
+    !        WRITE(*,*) 'Re ='  ,Re
+    !        WRITE(*,*) 'Pe ='  ,Pe
+    !        WRITE(*,*) 'Fr ='  ,Fr
+    !        WRITE(*,*) 'InvFr^2 =',InvFr2
+    !        WRITE(*,*) '----------------------'
         
 
         itc = 1 !iteração inicial
@@ -281,8 +281,8 @@ ENDDO
 
         clockTIME=ETIME(TARRAY)
 		PRINT *, clockTime
-		PRINT *, TARRAY
-        WRITE(*,1009) clockTIME/60.d0!, 'horas' 
+	!	PRINT *, TARRAY
+       ! WRITE(*,1009) clockTIME/60.d0!, 'horas' 
         1009  FORMAT(1X,'EXECUTION TIME = ',F15.4,' MINUTOS')
 
 !SCOREP_USER_REGION_END(my_test)

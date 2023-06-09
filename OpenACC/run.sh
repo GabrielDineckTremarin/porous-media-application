@@ -18,8 +18,9 @@ sh cleaning.sh  # apaga arquivos que não serão utilizados
 #export ACC_PROFLIB=/opt/scorep/lib/libscorep_adapter_openacc_event.so
 #export ACC_PROFLIB=$SCOREP_LIB/libscorep_adapter_openacc_event.so
 
-#scorep /opt/nvidia/hpc_sdk/Linux_x86_64/21.2/compilers/bin/pgf90  -mp -fast -acc -g -o2\
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.1/compilers/bin/pgf90 -mp -fast -acc -g -O3 -Minfo=all \
+
+#scorep /opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90  -mp -fast -acc -g -O3\
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -Minfo=all -mp -fast -acc -g -O3\
          comum.f90 \
 properties_CH4.f90 \
        initial.f90 \

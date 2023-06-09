@@ -1,0 +1,64 @@
+rm: cannot remove 'data/flametip.dat': No such file or directory
+rm: cannot remove 'data/error.dat': No such file or directory
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+ &ITERATIONS
+ ITC_MAX =        20000,
+ NC =            1,
+ N_TR =          100,
+ N_OUT =        10000,
+ N_VORT =        10000,
+ BETA =    1300.000000000000     ,
+ B_ART =    0.000000000000000     ,
+ DTAU_F =    1000000.000000000     ,
+ FINAL_TIME =   4.0000000000000001E-002,
+ EPS =   1.0000000000000000E-004,
+ EPS_MASS =   1.0000000000000000E-004,
+ START_MODE =    0.000000    
+ /
+ &REF
+ NU =    3.990000000000000     ,
+ YF_B =    1.000000000000000     ,
+ YO_OO =   0.2100000000000000     ,
+ TS =    1.000000000000000     ,
+ NTOO =    1.000000000000000     
+ /
+ ----------------------
+Date 09/06/0023; time 03:05:55
+ Current working directory: /home/claudio/porous-media-application/Sequencial
+ ----------------------
+ Tsup =    1.000000000000000     
+ Tinf =    1.000000000000000     
+ ----------------------
+ Mesh =          100 x          124
+ imax * jmax =        12400
+ eps =   1.0000000000000000E-004
+ ----------------------
+ alpha =  -8.8104547584722227E-006 [m^2/s]
+ cp =       1206.952745505791      [J/kgK]
+ k =       1.6982663363921814E-003 [W/mK]
+ rho =      268.1619195300669      [kg/m^3]
+ nu =      2.4299187063137199E-007 [m^2/s]
+ mu =      6.5161166458710404E-005 [kg/ms]
+ ----------------------
+ v_c =   0.7000000000000000      [m/s]
+ L_c =   1.0000000000000000E-003 [m]
+ t_c =   1.4285714285714288E-003 [s]
+ v_i =   0.7000000000000000     
+ V_idim =   0.4899999999999999      [m/s]
+ ----------------------
+ g =     9.806649999999999      [m/s^2]
+ S =     19.00000000000000     
+ q =     41550.92250855597     
+ Pr =  -2.7579946471855899E-002
+ Re =    2880.754809538163     
+ Pe =   -79.45106344560398     
+ Fr =    7.068669919858932     
+ InvFr^2 =   2.0013571428571429E-002
+ ----------------------
+    591.1800    
+    591.1700       9.9999998E-03
+ EXECUTION TIME =          9.8530 MINUTOS
+591.18user 0.02system 9:51.24elapsed 99%CPU (0avgtext+0avgdata 9108maxresident)k
+0inputs+17240outputs (0major+2739minor)pagefaults 0swaps

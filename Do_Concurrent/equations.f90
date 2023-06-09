@@ -14,14 +14,14 @@ subroutine RESU(um,vm,p,RU)
     REAL(8) :: Dn, Ds, De, Dw
     real(8) :: u_W, u_WW, u_E, u_EE, u_S, u_SS, u_N, u_NN, u_P
     real(8) :: v_W, v_WW, v_E, v_EE, v_S, v_SS, v_N, v_NN, v_P
-    real(8) :: afw, afe, afn, afs !, alpha
+    real(8) :: afw, afe, afn, afs !,alpha
     real(8) :: q_art, artDivU(imax,jmax), artDivV(imax,jmax), artMAX
     real(8) :: dudxdx, dvdydy, dxdvdy, dydudx
 
     ! $omp parallel do private(i,j,fn,fs,fe,fw,df,Dn,Ds,De,Dw,dudxdx,dxdvdy,q_art,u_W,u_WW,u_E,u_EE,u_N,u_NN,u_S,u_SS,v_P,u_P&
     ! $OMP&,ap,aw,aww,ae,aee,an,ann,as,ass)
-    DO CONCURRENT (j=3:jmax-2)
-    !DO j=3,jmax-2
+    !DO CONCURRENT (j=3:jmax-2)
+    DO j=3,jmax-2
       DO i=3,imax-1
         fn = 0.5d0 * ( vm(i  ,j+1) + vm(i-1,j+1) ) * areau_n(i) / (epsilon1(i,j) )
         fs = 0.5d0 * ( vm(i  ,j  ) + vm(i-1,j  ) ) * areau_s(i) / (epsilon1(i,j) )
@@ -60,7 +60,6 @@ subroutine RESU(um,vm,p,RU)
        afs = 0.0d0
     endif
 
- 
         aw = Dw + 0.75d0  * afw * fw &
                 + 0.125d0 * afe * fe &
                 + 0.375d0 * ( 1.0d0 - afw ) * fw
@@ -84,7 +83,6 @@ subroutine RESU(um,vm,p,RU)
 
         ap = aw + ae + as + an + aww + aee + ass + ann + df
         !end Quick
-
 
         u_W  = um(i-1,j  )
         u_WW = um(i-2,j  )
@@ -117,7 +115,7 @@ subroutine RESU(um,vm,p,RU)
         CF/((epsilon1(i,j)*Darcy_number)**0.5d0)* u_P*((u_p**2.d0 +v_P**2.d0)**0.5d0))*liga_poros(i,j)
 
       ENDDO
-    ENDDO 
+    ENDDO
     ! $omp end parallel do
 
     !TIRAR
@@ -144,13 +142,13 @@ subroutine RESU(um,vm,p,RU)
 
 
     ! $omp parallel do private(j) 
-    !DO j=2, jmax-1
+    !DO j=2,jmax-1
       CALL upwind_U(um,vm,p,RU,2,2,2,jmax-1)
     !ENDDO
     ! $omp end parallel do
 
     ! $omp parallel do private(j) 
-    !DO j=2, jmax-1
+    !DO j=2,jmax-1
       CALL upwind_U(um,vm,p,RU,imax,imax,2,jmax-1)
     !ENDDO
     ! $omp end parallel do
@@ -166,7 +164,7 @@ subroutine upwind_U(um,vm,p,RU,iii,ii,jjj,jj)!ii e jj são os limites da borda p
     use comum
     implicit none
     integer :: i, ii, iii, j, jj, jjj, itc
-    
+
     REAL(8), DIMENSION(1:imax+1,1:jmax  ) :: um, RU
     REAL(8), DIMENSION(1:imax  ,1:jmax+1) :: vm
     REAL(8), DIMENSION(1:imax,1:jmax) :: P
@@ -178,10 +176,10 @@ subroutine upwind_U(um,vm,p,RU,iii,ii,jjj,jj)!ii e jj são os limites da borda p
     real(8) :: alpha
     real(8) :: q_art, artDivU(imax,jmax), artDivV(imax,jmax), artMAX
     real(8) :: dudxdx, dvdydy, dxdvdy, dydudx
-    
-    DO CONCURRENT (j=jjj:jj)
-        DO CONCURRENT(i=iii:ii) 
 
+    !DO CONCURRENT (j=jjj:jj)
+    DO j=jjj,jj
+      DO i=iii,ii
 
     !!!!!!!!!!!!!!!!!!!!!compute x-direction velocity component un!!!!!!!!!!!!!!!!!!!!!
     fn = 0.5d0 * ( vm(i  ,j+1) + vm(i-1,j+1) ) * areau_n(i) / (epsilon1(i,j) )
@@ -204,7 +202,7 @@ subroutine upwind_U(um,vm,p,RU,iii,ii,jjj,jj)!ii e jj são os limites da borda p
     an = Dn + MAX(0.0d0 , -fn)
 
     ap = aw + ae + as + an + df
-    !end upwind 
+    !end upwind
 
     u_W = um(i-1,j  )
     u_E = um(i+1,j  )
@@ -272,7 +270,8 @@ subroutine solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,p,residual_u)
     CALL RESU(um_tau,vm_tau,p,RU)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)            
+    !DO CONCURRENT (j=2:jmax-1)            
+    DO j=2,jmax-1
         DO i=3,imax-1
             !call solve_res_u(i,j,um,um_tau,RU,res_u)
             res_u(i,j) =( (um(i,j)-um_tau(i,j)) +  RU(i,j)*dt) * dtau 
@@ -290,7 +289,8 @@ subroutine solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,p,residual_u)
     CALL RESU(ui,vm_tau,p,RU)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    DO j=2,jmax-1
         DO i=3,imax-1
             !call solve_res_u(i,j,um,um_tau,RU,res_u)
             res_u(i,j) =( (um(i,j)-um_tau(i,j)) +  RU(i,j)*dt) * dtau 
@@ -309,7 +309,8 @@ subroutine solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,p,residual_u)
     CALL RESU(ui,vm_tau,p,RU)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    DO j=2,jmax-1
         DO i=3,imax-1
             !call solve_res_u(i,j,um,um_tau,RU,res_u)
             res_u(i,j) =( (um(i,j)-um_tau(i,j)) +  RU(i,j)*dt) * dtau 
@@ -383,10 +384,10 @@ subroutine RESV(um,vm,p,T,InvFr2,RV)
     real(8) :: q_art, artDivU(imax,jmax), artDivV(imax,jmax), artMAX
     real(8) :: dudxdx, dvdydy, dxdvdy, dydudx
 
-
     ! $omp parallel do private(i,j,fn,fs,fe,fw,df,Dn,Ds,De,Dw,dvdydy,dydudx,q_art,&
     ! $omp&v_W,v_WW,v_E,v_EE,v_N,v_NN,v_S,v_SS,v_P,u_P,ap,aw,aww,ae,aee,an,ann,as,ass)
-    DO CONCURRENT (j=3:jmax-1)
+    !DO CONCURRENT (j=3:jmax-1)
+    DO j=3,jmax-1
       DO i=3,imax-2
 
         fn =  0.5d0 * ( vm(i  ,j  ) + vm(i  ,j+1) ) * areav_n(i) / epsilon1(i,j)
@@ -449,7 +450,6 @@ subroutine RESV(um,vm,p,T,InvFr2,RV)
 
         ap = aw + ae + as + an + aww + aee + ass + ann + df
         !end Quick
-
 
         v_W  = vm(i-1,j  )
         v_WW = vm(i-2,j  )
@@ -544,16 +544,9 @@ subroutine upwind_V(um,vm,p,RV,InvFr2,T,iii,ii,jjj,jj)
     real(8) :: q_art, artDivU(imax,jmax), artDivV(imax,jmax), artMAX
     real(8) :: dudxdx, dvdydy, dxdvdy, dydudx
 
-    !if (ii.EQ.iii) then
-    !    i=iii
-    !    DO CONCURRENT (j=jjj:jj)
-    !elseif(jj.EQ.jjj) then
-    !    j=jjj
-    !    DO CONCURRENT(i=iii:ii)
-    !endif
-
-    DO CONCURRENT (j=jjj:jj)
-        DO CONCURRENT(i=iii:ii)
+    !DO CONCURRENT (j=jjj:jj)
+    DO j=jjj,jj
+        DO i=iii,ii
 
     fn = 0.5d0 * ( vm(i  ,j  ) + vm(i  ,j+1) ) * areav_n(i) / epsilon1(i,j) 
     fs = 0.5d0 * ( vm(i  ,j  ) + vm(i  ,j-1) ) * areav_s(i) / epsilon1(i,j)  
@@ -571,12 +564,12 @@ subroutine upwind_V(um,vm,p,RV,InvFr2,T,iii,ii,jjj,jj)
 
     aw = Dw + MAX(fw , 0.0d0)
     as = Ds + MAX(fs , 0.0d0)
-    
+
     ae = De + MAX(0.0d0 , -fe)
-    an = Dn + MAX(0.0d0 , -fn) 
-        
+    an = Dn + MAX(0.0d0 , -fn)
+
     ap = aw + ae + as + an + df
-    !end upwind 
+    !end upwind
 
     v_W = vm(i-1,j  )
     v_E = vm(i+1,j  )
@@ -646,7 +639,8 @@ subroutine solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,p,T,InvFr2,residual_v)
     CALL RESV(um_tau,vm_tau,p,T,InvFr2,RV)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=3:jmax-1)
+    !DO CONCURRENT (j=3:jmax-1)
+    DO j=3,jmax-1
         DO i=2,imax-1
             !call solve_res_v(i,j,vm,vm_tau,RV,res_v)
             res_v(i,j) =( (vm(i,j)-vm_tau(i,j)) +  RV(i,j)*dt) * dtau 
@@ -664,7 +658,8 @@ subroutine solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,p,T,InvFr2,residual_v)
     CALL RESV(um_tau,vi,p,T,InvFr2,RV)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT(j=3:jmax-1)
+    !DO CONCURRENT(j=3:jmax-1)
+    DO J=3,jmax-1
         DO i=2,imax-1
             !call solve_res_v(i,j,vm,vm_tau,RV,res_v)
             res_v(i,j) =( (vm(i,j)-vm_tau(i,j)) +  RV(i,j)*dt) * dtau 
@@ -683,7 +678,8 @@ subroutine solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,p,T,InvFr2,residual_v)
     CALL RESV(um_tau,vi,p,T,InvFr2,RV)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=3:jmax-1)
+    !DO CONCURRENT (j=3:jmax-1)
+    DO j=3,jmax-1
         DO i=2,imax-1
             !call solve_res_v(i,j,vm,vm_tau,RV,res_v)
             res_v(i,j) =( (vm(i,j)-vm_tau(i,j)) +  RV(i,j)*dt) * dtau 
@@ -863,7 +859,8 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p)
     CALL RESP(um_n,vm_n,p,RP)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    DO j=2,jmax-1
         DO i=2,imax-1
             pi(i,j) = p(i,j) + dtau * RP(i,j)* c2 
         ENDDO
@@ -875,7 +872,8 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p)
     CALL RESP(um_n,vm_n,pi,RP)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    DO j=2,jmax-1
         DO i=2,imax-1
             pi(i,j) = 0.75d0 * p(i,j) + 0.25d0 * (pi(i,j) + dtau * RP(i,j)* c2)
         ENDDO
@@ -887,7 +885,8 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p)
     CALL RESP(um_n,vm_n,pi,RP)
     
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    DO j=2,jmax-1
           DO i=2,imax-1
             res_p(i,j) = dtau * RP(i,j) * c2
             pn(i,j) = 1.0d0 / 3.0d0 * p(i,j) + 2.0d0 / 3.0d0 * (pi(i,j) + res_p(i,j))
@@ -917,7 +916,8 @@ SUBROUTINE RESP(um_n,vm_n,p,RP)
     REAL(8) :: dudx, dvdy
 
     ! $omp parallel do private(i,j,dudx,dvdy) 
-    do CONCURRENT (j=2:jmax-1)
+    !DO CONCURRENT (j=2:jmax-1)
+    do j=2,jmax-1
         do i=2,imax-1
             dudx = um_n(i+1,j) * areau_e(j) - um_n(i,j) * areau_w(j)
             dvdy = vm_n(i,j+1) * areav_n(i) - vm_n(i,j) * areav_s(i)
@@ -950,7 +950,8 @@ SUBROUTINE solve_Z(um_n,vm_n,Z,Z_n_tau,Z_tau)
     CALL RESZ(um_n,vm_n,Z_tau,RZ)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT (j=2: jmax-1)
+    !DO CONCURRENT (j=2: jmax-1)
+    DO j=2, jmax-1
         DO i=2,imax-1
             !call solve_res_Z(i,j,Z,Z_tau,RZ,res_Z)
             res_Z(i,j) =( (Z(i,j)-Z_tau(i,j)) +  RZ(i,j)*dt) * dtau 
@@ -965,7 +966,8 @@ SUBROUTINE solve_Z(um_n,vm_n,Z,Z_n_tau,Z_tau)
     CALL RESZ(um_n,vm_n,Zi,RZ)
 
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT(j=2:jmax-1)    
+    !DO CONCURRENT(j=2:jmax-1)    
+    DO j=2,jmax-1
         DO i=2,imax-1
             !call solve_res_Z(i,j,Z,Z_tau,RZ,res_Z)
             res_Z(i,j) =( (Z(i,j)-Z_tau(i,j)) +  RZ(i,j)*dt) * dtau 
@@ -979,7 +981,8 @@ SUBROUTINE solve_Z(um_n,vm_n,Z,Z_n_tau,Z_tau)
 
     CALL RESZ(um_n,vm_n,Zi,RZ)
     ! $omp parallel do private(i,j) 
-    DO CONCURRENT(j=2:jmax-1)          
+    !DO CONCURRENT(j=2:jmax-1)          
+    DO j=2, jmax-1
         DO i=2,imax-1
             !call solve_res_Z(i,j,Z,Z_tau,RZ,res_Z)
             res_Z(i,j) =( (Z(i,j)-Z_tau(i,j)) +  RZ(i,j)*dt) * dtau 
@@ -1036,7 +1039,8 @@ SUBROUTINE RESZ(um_n,vm_n,Z,RZ)
     REAL(8) :: difx, dify, difx2, dify2 !Alterado por Claudio: 22.02.2023
 
     ! $omp parallel do private(i,j, dZudx,dZvdy, De,Dw,Dn,Ds,Dp, difx,dify, difx2,dify2)   ! Ze,Zw,Zn,Zs,Zp, Dp) 
-    do concurrent(j=2: jmax-1)
+    !DO CONCURRENT (j=2: jmax-1)
+    do j=2,jmax-1
         do i=2,imax-1
             dZudx = 0.5d0 * (Z(i+1,j)+Z(i,j)) * um_n(i+1,j) * areau_e(j) &
                   - 0.5d0 * (Z(i-1,j)+Z(i,j)) * um_n(i  ,j) * areau_w(j)
@@ -1116,7 +1120,7 @@ SUBROUTINE comp_T(Z,H,T)
     INTEGER :: i, j
     REAL(8), DIMENSION(1:imax,1:jmax) :: Z, H, T
 
-    !#omp parallel do private(i,j)
+    ! $omp parallel do private(i,j)
     do j=1,jmax
         do i=1,imax
 
@@ -1132,7 +1136,7 @@ SUBROUTINE comp_T(Z,H,T)
 
         enddo
     enddo
-    !#omp end parallel do
+    ! $omp end parallel do
 
 RETURN
 END SUBROUTINE comp_T

@@ -12,7 +12,7 @@ sh cleaning.sh  # apaga arquivos que não serão utilizados
 #export SCOREP_METRIC_PERF_SEP=:
 
 #scorep /opt/nvidia/hpc_sdk/Linux_x86_64/21.2/compilers/bin/pgf90 -O3 \
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.1/compilers/bin/pgf90 -O3 \
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 \
          comum.f90 \
 properties_CH4.f90 \
        initial.f90 \
@@ -29,7 +29,7 @@ nonsymetric_mesh.f90 \
 -o cylinder_solver.out
 
 
-./cylinder_solver.out
+#./cylinder_solver.out
 
 
 # sh pos.sh

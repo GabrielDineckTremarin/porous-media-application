@@ -191,7 +191,7 @@ dt = 1.d-2
 
 varM(1) = itc
 
-!$acc enter data copyin(um, um_n, vm, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
+!$acc enter data copyin(um, um_n, vm, vm_n, RP, areau_e, areau_w, areau_n, areau_s, areav_e, areav_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
 !$acc& Z_tau, varZ, ym, xm, Pe, x, y, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy,&
 !$acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i, var,&
 !$acc& vi, RV, res_v,t, v_i, Re, artDivV, var, residual_v, itc, varM)
@@ -317,7 +317,6 @@ DO WHILE (time .LT. final_time)
            ! tr = tr + 1
  
 ENDDO
-
 
 !$acc exit data copyout(um, um_n, vm, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
 !$acc& Z_tau, varZ, ym, xm, Pe, x, y, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy,&

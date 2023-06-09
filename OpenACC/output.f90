@@ -9,7 +9,7 @@ SUBROUTINE output(um,vm,u,v,p,Z,T,H,k)
     REAL(8), DIMENSION(1:imax,1:jmax) :: u,v,P,Z,T,H,Yi
     character*16 filename
     character(len=100) :: filename2 
-!!$omp parallel do private(i, j)
+! !$omp parallel do private(i, j)
     do i=1,imax
         do j=1,jmax
      
@@ -21,7 +21,7 @@ SUBROUTINE output(um,vm,u,v,p,Z,T,H,k)
 
         enddo
      enddo
-!!$omp end parallel do
+! !$omp end parallel do
 
 
     open (550,file='data/output_variables.dat')

@@ -14,8 +14,13 @@ subroutine RESU(um,vm,p,RU)
     real(8) :: alpha
     real(8) :: q_art, artMAX
     real(8) :: dudxdx, dvdydy, dxdvdy, dydudx
-  !$omp parallel do private(i,j,fn,fs,fe,fw,df,Dn,Ds,De,Dw,dudxdx,dxdvdy,q_art,u_W,u_WW,u_E,u_EE,u_N,u_NN,u_S,u_SS,v_P,u_P&
-  !$OMP&,ap,aw,aww,ae,aee,an,ann,as,ass)
+
+! $acc data present(p,epsilon1,vm,liga_poros,areau_w,y,ym,x,xm,areau_s, RU, um, areau_n, artdivu, areau_e)
+
+! $omp parallel do private(i,j,fn,fs,fe,fw,df,Dn,Ds,De,Dw,dudxdx,dxdvdy,q_art,u_W,u_WW,u_E,u_EE,u_N,u_NN,u_S,u_SS,v_P,u_P&
+  ! $OMP&,ap,aw,aww,ae,aee,an,ann,as,ass)
+  ! $acc parallel&
+  ! $acc& private(i,j,fe,fn,dxdvdy,fs,de,df,dn,aww,dudxdx,ass,ap,aee,aw,ae,as,an,ann,u_ss,u_w,q_art,u_e,u_p,u_s,u_ee,u_n,u_nn,v_p,u_ww,ds,dw,fw)
 DO i=3,imax-1
     DO j=3,jmax-2
 
@@ -77,7 +82,7 @@ DO i=3,imax-1
 
     ENDDO
 ENDDO    
-  !$omp end parallel do
+  ! $acc end parallel
 
 !  $omp parallel do private(i) 
 DO i=2,imax
@@ -86,12 +91,13 @@ DO i=2,imax
 ENDDO
 !  $omp end parallel do
 
-!$omp parallel do private(j) 
+! $omp parallel do private(j) 
 DO j=2,jmax-1
     CALL upwind_U(um,vm,p,RU,2,j)
     CALL upwind_U(um,vm,p,RU,imax,j)
 ENDDO
-!$omp end parallel do
+! $omp end parallel do
+! $acc end data
 
 RETURN
 END SUBROUTINE RESU
@@ -603,6 +609,7 @@ subroutine solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,p,residual_u, var,res_u,RU,
 ! $acc enter data copyin(um, um_n, vm, um_tau, um_n_tau, vm_tau, p, residual_u, RU, res_u, ui,&
 ! $acc&areau_n, areau_s, areau_e, areau_w,epsilon1, x, y, xm,ym, b_art, liga_poros, Re, artDivU, v_i, var)
 
+!$acc data present (ru,um_tau,liga_poros,p,areau_e,areau_n,areau_s,artdivu,vm_tau,xm,x,y,ym,areau_w,epsilon1,re,um,ui,res_u,dtau,um_n_tau)
 !$acc parallel loop collapse(2) private(var)
 DO i=3,imax-1
     DO j=3,jmax-2
@@ -704,6 +711,7 @@ ENDDO
 !$acc parallel
     residual_u =  MAXVAL(ABS(res_u)) 
 !$acc end parallel
+!$acc end data
 
 ! $acc exit data copyout(um, um_n, vm, um_tau, um_n_tau, vm_tau, p, residual_u, RU, res_u, ui,&
 ! $acc&areau_n, areau_s, areau_e, areau_w,epsilon1, x, y, xm,ym, b_art, liga_poros, Re, artDivU, v_i, var)
@@ -821,18 +829,18 @@ ENDDO
 ENDDO
 ! $omp end parallel do
 
-!$omp parallel do private (i)
+! $omp parallel do private (i)
 DO i=2,imax-1
     CALL upwind_V(um,vm,p,RV,InvFr2,T,i,2)
     CALL upwind_V(um,vm,p,RV,InvFr2,T,i,jmax)
 ENDDO
-!$omp end parallel do
-!$omp parallel do private (j)
+! $omp end parallel do
+! $omp parallel do private (j)
 DO j=2,jmax
     CALL upwind_V(um,vm,p,RV,InvFr2,T,2,j)
     CALL upwind_V(um,vm,p,RV,InvFr2,T,imax-1,j)
 ENDDO
-!$omp end parallel do
+! $omp end parallel do
 RETURN
 END SUBROUTINE RESV
 
@@ -1563,6 +1571,7 @@ subroutine solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,p,T,InvFr2,residual_v,var,r
 ! $acc enter data copyin(vi, RV, res_v,um,vm, vm_n, um_tau,vm_tau,vm_n_tau,p,t, v_i, areav_e, areav_w,areav_s,&
 ! $acc&areav_n, epsilon1, re, ym, x, xm, y, b_art, liga_poros, artDivV, var, residual_v)
 
+!$acc data present(t,um_tau,liga_poros,rv,p,areav_e,areav_n,areav_s,artdivv,y,ym,vm_tau,x,xm,areav_w,epsilon1,invfr2,re,vi,vm,res_v,vm_n_tau)
 !$acc parallel loop collapse(2) private(i,j, var)
     DO i=3,imax-2
        DO j=3,jmax-1
@@ -1666,6 +1675,7 @@ ENDDO
 !$acc parallel
     residual_v =  MAXVAL(ABS(res_v)) 
 !$acc end parallel
+!$acc end data
 
 ! $acc exit data copyout(vi, RV, res_v,um,vm, vm_n, um_tau,vm_tau,vm_n_tau,p,t, v_i, areav_e, areav_w,areav_s,&
 ! $acc&areav_n, epsilon1, re, ym, x, xm, y, b_art, liga_poros, artDivV, var, residual_v)
@@ -1814,6 +1824,7 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p,RP,Pi,res_p,areau_e, areau_w, ar
         !RESP(um_n,vm_n,p,RP)
     !varP(1) = dudx
     !varP(2) = dvdy
+    !$acc data present(areau_w,um_n,vm_n,areav_n,rp,areau_e,areav_s,p,RP,pi,res_p,pn,c2)
     !$acc parallel loop collapse(2)  
     do i=2,imax-1
         do j=2,jmax-1
@@ -1924,7 +1935,7 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p,RP,Pi,res_p,areau_e, areau_w, ar
     !$acc parallel
     residual_p = MAXVAL(ABS(res_p))
     !$acc end parallel
-
+    !$acc end data
 ! $acc end data
 ! $acc exit data copyout(um_n, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p)
 ! $delete(um_n, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p)
@@ -1948,7 +1959,7 @@ SUBROUTINE RESP(um_n,vm_n,p,RP)
     REAL(8), DIMENSION(1:imax,1:jmax) :: P, RP !, Pi
     REAL(8) :: dudx, dvdy
 
-    !$omp parallel do private(i,j,dudx,dvdy) 
+    ! $omp parallel do private(i,j,dudx,dvdy)
     do i=2,imax-1
         do j=2,jmax-1
  
@@ -1960,7 +1971,7 @@ SUBROUTINE RESP(um_n,vm_n,p,RP)
             
          enddo
      enddo
-     !$omp end parallel do
+     ! $omp end parallel do
 
 RETURN
 END SUBROUTINE RESP
@@ -2008,6 +2019,7 @@ SUBROUTINE solve_Z(um_n,vm_n,Z,Z_n_tau,Z_tau, varZ,res_Z,RZ,zi,areau_e,areau_w,a
 ! $acc&Zw,Ze,Zs,Zn, Zp, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy)
 
     !CALL RESZ(um_n,vm_n,Z_tau,RZ)
+    !$acc data present(liga_poros,areav_s,xm,x,vm_n,y,areav_n,um_n,areau_w,areau_e,ym,z_tau,rz,pe,res_z,rz,zi,z_tau,dtau,z,z_n_tau)
 !$acc parallel loop collapse(2) private(i,j,varZ) 
     do i=2,imax-1
         do j=2,jmax-1
@@ -2116,6 +2128,7 @@ SUBROUTINE solve_Z(um_n,vm_n,Z,Z_n_tau,Z_tau, varZ,res_Z,RZ,zi,areau_e,areau_w,a
     !$acc end parallel loop
 
     CALL bcZ1(Z_n_tau)
+    !$acc end data
 
 !  $ acc exit data copyout(dZudx, dZvdy, Z_tau, um_n, areau_e, areau_w, areau_w, areav_n, areav_s, ym, xm, Pe, x, y,Dw,De,Ds,Dn, Dp,&
 !  $ acc&Zw,Ze,Zs,Zn, Zp, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy)

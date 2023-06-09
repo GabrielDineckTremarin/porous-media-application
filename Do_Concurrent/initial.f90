@@ -5,14 +5,14 @@ SUBROUTINE init
 !-------- iterations values -------------    
     OPEN(unit=550,file='input/iterations.dat',status='old')
         READ(550,nml=iterations)
-        WRITE(*,nml=iterations)
+!        WRITE(*,nml=iterations)
     CLOSE(unit=550)
     
     
 !-------- reference values --------------   
      OPEN(unit=550,file='input/reference.dat',status='old')
         READ(550,nml=ref)
-        WRITE(*,nml=ref)
+ !       WRITE(*,nml=ref)
     CLOSE(unit=550)
     
     
