@@ -1,2 +1,0 @@
-rm: não foi possível remover 'data/flametip.dat': Arquivo ou diretório inexistente
-rm: não foi possível remover 'data/error.dat': Arquivo ou diretório inexistente
