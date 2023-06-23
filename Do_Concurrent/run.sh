@@ -10,13 +10,14 @@ fi
 
 export NO_STOP_MESSAGE=yes
 
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -fopenmp \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -fopenmp \
 
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=gpu -Minfo=stdpar,all -stdpar=gpu \
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O2  -Minfo=all \
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -fopenmp -Minfo=all \
+
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O2  -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -fopenmp -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=gpu -Minfo=stdpar,all -stdpar=gpu \
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
 	comum.f90 \
 properties_CH4.f90 \
        initial.f90 \

@@ -280,8 +280,8 @@ ENDDO
         CALL output(um,vm,u,v,p,Z,T,H,itc)
 
         clockTIME=ETIME(TARRAY)
-		PRINT *, clockTime
-		PRINT *, TARRAY
+        PRINT *, clockTime
+        PRINT *, TARRAY
         WRITE(*,1009) clockTIME/60.d0!, 'horas' 
         1009  FORMAT(1X,'EXECUTION TIME = ',F15.4,' MINUTOS')
 

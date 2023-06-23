@@ -21,9 +21,8 @@ MODULE comum
         REAL(8), PARAMETER  :: porosidade=0.2d0
         REAL(8), PARAMETER  :: Darcy_number = 1.0d-2
         REAL(8), PARAMETER  :: Cf = 1.d0
-    !    REAL(8)  :: Liga_poros
         REAL(8), PARAMETER  :: Temp_cylinder = 5.d0
-   !     REAL(8)  :: Darcy_term
+
         !parametros de refinamento P e Q
         !colocar P=1 para a malha uniforme
         REAL(8), PARAMETER :: Px_grid = 1.6d0, Py_grid = 1.6d0, Q_grid = 1.8d0 
@@ -41,8 +40,7 @@ MODULE comum
 
         REAL(8), PARAMETER :: dx_c = Lhori / (imax-1) !dita o tamanho de dy e dx
 
-!        INTEGER, PARAMETER :: imax  = int_points + 1! (Lhori / dx_c) + 1!numero de pontos da malha em x
-
+        !INTEGER, PARAMETER :: imax  = int_points + 1! (Lhori / dx_c) + 1!numero de pontos da malha em x
         INTEGER, PARAMETER :: jmax  = (Hvert / dx_c) + 1!numero de pontos da malha em y
 
         REAL(8)            :: x(1:imax), y(1:jmax)       !malha principal
@@ -62,11 +60,10 @@ MODULE comum
         REAL(8)            :: areav_e(2:jmax)            !area e de v
         REAL(8)            :: areav_w(2:jmax)            !area w de v
         
-        REAL(8) 		:: dx(2:imax), dy(2:jmax)
- 	     REAL(8) 		:: epsilon1(imax,jmax)
-        REAL(8)            	:: liga_poros(imax,jmax)   
+        REAL(8)            :: dx(2:imax), dy(2:jmax)
+        REAL(8)            :: epsilon1(imax,jmax)
+        REAL(8)            :: liga_poros(imax,jmax)   
         REAL(8), PARAMETER :: rad1 = 1.d0 !raio do cilindro        
-
     
         ! flags for obstacle interior, boundary, fluid cells and close to boundary
         INTEGER, PARAMETER :: C_I = 2, C_B = 1, C_F = 0, C_BS = 3 
@@ -103,7 +100,7 @@ MODULE comum
         REAL(8)                :: alpha_tot                   ! [m^2/s]
         REAL(8)                :: Re ,Pr, Pe                 
 
- !Temporários adicionados por Claudio em 01.06.2021
+    !Temporários adicionados por Claudio em 01.06.2021
     !de solve_U e de solve_V
     REAL(8), DIMENSION(1:imax+1,1:jmax) :: RU
     REAL(8), DIMENSION(1:imax  ,1:jmax+1) :: RV
@@ -116,9 +113,10 @@ MODULE comum
     !de solve_Z
     REAL(8), DIMENSION(1:imax,1:jmax)     ::  RZ, Zi
     REAL(8), DIMENSION(2:imax-1,2:jmax-1) :: res_Z
-    REAL(8), DIMENSION(1:imax,1:jmax) :: Z_n_tau, Z_tau
+    !REAL(8), DIMENSION(1:imax,1:jmax) :: Z_n_tau, Z_tau
     REAL(8)                :: artDivU(imax,jmax)
     REAL(8)                :: artDivV(imax,jmax)
+
 
     REAL(8), DIMENSION(1:imax+1,1:jmax  ) :: um, um_n, res_u
     REAL(8), DIMENSION(1:imax  ,1:jmax+1) :: vm, vm_n, res_v
@@ -126,18 +124,18 @@ MODULE comum
     REAL(8), DIMENSION(1:imax+1,1:jmax  ) :: um_tau, um_n_tau
     REAL(8), DIMENSION(1:imax  ,1:jmax+1) :: vm_tau, vm_n_tau
 
-    REAL(8), DIMENSION(1:imax,1:jmax)     :: u, v, P, Pn, H, T,Z
+    REAL(8), DIMENSION(1:imax,1:jmax)     :: u, v, P, Pn, H, T !,Z
     REAL(8), DIMENSION(1:imax,1:jmax)     :: T_n_tau, T_tau
     REAL(8)                               :: InvFr2
     REAL(8) :: residual_p, residual_u,residual_v
     REAL(8) :: c2, error,max_vel
-    REAL (8) :: var(45)
-    REAL(8), DIMENSION(10) :: varP
-    REAL(8), DIMENSION(15) :: varZ
-    REAL(8), DIMENSION(10) :: varM
- 
-!!!Declarar as constantes
-!$acc declare copyin(beta, max_vel, imax, jmax, v_i, S, Tsup, Lf, q, Re, Pr, Pe, b_art, dtau,dt, c2,&
-!$acc& residual_p, residual_u,residual_v, InvFr2, itc, error, time, dt, final_time) 
+    !REAL (8) :: var(45)
+    !REAL(8), DIMENSION(10) :: varP
+    !REAL(8), DIMENSION(15) :: varZ
+    !REAL(8), DIMENSION(10) :: varM
+
+    !Declarar as constantes
+    !$acc declare copyin(beta, max_vel, imax, jmax, v_i, S, Tsup, Lf, q, Re, Pr, Pe, b_art, dtau,dt, c2,&
+    !$acc& residual_p, residual_u,residual_v, InvFr2, itc, error, time, dt, final_time, Darcy_number) 
 
 end MODULE comum

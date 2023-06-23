@@ -13,15 +13,8 @@ SUBROUTINE probe(v,itc)
     ENDDO
 
     open(unit=550,file='data/probe.dat',status='unknown',position='append')
-
         write(550,*) itc, st_pos-0.5d0
-
     close(550)
-
-
 
 RETURN
 END SUBROUTINE probe
-
-
-

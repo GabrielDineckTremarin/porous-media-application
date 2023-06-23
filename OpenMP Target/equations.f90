@@ -427,8 +427,8 @@ subroutine solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,p,residual_u)
 !    REAL(8), DIMENSION(1:imax+1,1:jmax+1) ::epsilon1,Darcy
     REAL(8) :: residual_u
 
-    RU = 0.d0
-    res_u = 0.d0
+    !RU = 0.d0
+    !res_u = 0.d0
          
     CALL RESU(um_tau,vm_tau,p,RU)
 
@@ -1007,8 +1007,8 @@ subroutine solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,p,T,InvFr2,residual_v)
     REAL(8) :: residual_v
     REAL(8) :: InvFr2
 
-    RV = 0.d0
-    res_v = 0.d0
+    !RV = 0.d0
+    !res_v = 0.d0
     
     CALL RESV(um_tau,vm_tau,p,T,InvFr2,RV)
 
@@ -1179,9 +1179,9 @@ SUBROUTINE solve_P(c2,p,um_n,vm_n,pn,residual_p)
 
     REAL(8), DIMENSION(1:imax,1:jmax) :: k1, k2, k3, k4
     REAL(8) :: c, c2, residual_p, max_vel
-res_p = 0.d0
+    !res_p = 0.d0
 
-    max_vel = MAXVAL(um_n**2.d0) + MAXVAL(vm_n**2.d0)
+    !max_vel = MAXVAL(um_n**2.d0) + MAXVAL(vm_n**2.d0)
 
     ! from AN ARTIFICIAL COMPRESSIBILITY METHOD FOR INCOMPRESSIBLE FLOWS - M. M. Rahman, T. Siikonen
     !c = beta !* SQRT(MAX(max_vel,(0.5d0 * v_i**2.d0))) 

@@ -10,8 +10,9 @@ fi
 
 export NO_STOP_MESSAGE=yes
 
-#/opt/nvidia/hpc_sdk/Linux_x86_64/22.11/compilers/bin/pgf90 -O3 -fopenmp -ta=tesla:cc50 -Minfo=all \
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=gpu -gpu=cc70 -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -fopenmp -ta=tesla:cc50 -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=gpu -Minfo=stdpar,all -stdpar=gpu \
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=gpu -gpu=cc70 -Minfo=all \
       comum.f90 \
 properties_CH4.f90 \
        initial.f90 \

@@ -27,6 +27,7 @@ USE comum
 !$acc routine(solve_u)
 !$acc routine(convergence)
 !$acc routine(lacointerno)
+!$acc routine(lacoexterno)
 !$acc routine(terat_convergence)
 
 IMPLICIT NONE
@@ -186,15 +187,17 @@ dt = 1.d-2
             um_tau = um
             vm_tau = vm
 
-
 !$acc update device( c2, dtau, beta, itc, error, time, dt, final_time)
 
-varM(1) = itc
+!varM(1) = itc
 
-!$acc enter data copyin(um, um_n, vm, vm_n, RP, areau_e, areau_w, areau_n, areau_s, areav_e, areav_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
-!$acc& Z_tau, varZ, ym, xm, Pe, x, y, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy,&
-!$acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i, var,&
-!$acc& vi, RV, res_v,t, v_i, Re, artDivV, var, residual_v, itc, varM)
+!$acc enter data copyin(um, um_n, vm, vm_n, um_tau, vm_tau, um_n_tau, vm_n_tau, p, pn, T, T_tau, T_n_tau,&
+!$acc& areau_e, areau_w, areau_n, areau_s, areav_e, areav_w, areav_n, areav_s, epsilon1, liga_poros, &
+!$acc& x, y, ym, xm, dx, dy,&
+!$acc& ui, vi, pi, zi, RU, RV, RP, RZ, res_u, res_v, res_p, res_z, artDivU,artDivV, &
+!$acc& residual_u,residual_v,residual_p, InvFr2, c2, b_art, v_i, Re, Pe, dtau)
+
+    !write (*,*) vm
 
 
 DO WHILE (time .LT. final_time)
@@ -214,17 +217,15 @@ DO WHILE (time .LT. final_time)
 ! $acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i, var,&
 ! $acc& vi, RV, res_v,t, v_i, Re, artDivV, var, residual_v, itc, varM)
 
-
 !-------- Solve Momentum Equation with QUICK Scheme
-     CALL solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,pn,residual_u,var,res_u,RU,UI,areau_e,areau_w,areau_n,areau_s,ym,xm,Re,x,y,liga_poros,dtau,epsilon1,artDivU)
+     CALL solve_U(um,vm,um_n,um_tau,vm_tau,um_n_tau,pn,residual_u)
 
-     CALL solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,pn,T,InvFr2,residual_v,var,res_v,Rv,vi,areav_e,areav_w,areav_n,areav_s,ym,xm,Re,x,y,liga_poros,epsilon1,artDivV)
+     CALL solve_V(um,vm,vm_n,um_tau,vm_tau,vm_n_tau,pn,T,InvFr2,residual_v)
 
-
-     CALL solve_P(c2,p,um_n_tau,vm_n_tau,pn,residual_p,RP,Pi,res_p,areau_e, areau_w, areav_n, areav_s, max_vel) 
+     CALL solve_P(p,um_n_tau,vm_n_tau,pn,residual_p)
 
     !-------- Solve Energy Equation ------------------------------------------------
-     CALL solve_Z(um_n_tau,vm_n_tau,T,T_n_tau,T_tau,varZ,res_Z,RZ,zi,areau_e,areau_w,areav_n,areav_s,ym,xm,Pe,x,y,liga_poros,dtau)
+     CALL solve_Z(um_n_tau,vm_n_tau,T,T_n_tau,T_tau)
  
     !    CALL solve_H(H,T_n_tau)
     !    CALL comp_T(Z_n_tau,H,T)
@@ -240,7 +241,6 @@ DO WHILE (time .LT. final_time)
 ! $acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i, var,&
 ! $acc& vi, RV, res_v,t, v_i, Re, artDivV, var, residual_v, varM)
 
-
      CALL lacointerno(um_tau, um_n_tau, vm_tau, vm_n_tau, p, pn, T_tau, T_n_Tau)
        ! $acc data present(um_tau, um_n_tau, vm_tau, vm_n_tau, p, pn, T_tau, T_n_Tau) 
 ! $acc parallel      
@@ -248,7 +248,7 @@ DO WHILE (time .LT. final_time)
  !              vm_tau = vm_n_tau
  !              p      = pn
  !              T_tau = T_n_tau
-! $acc end parallel          
+! $acc end parallel
   ! $acc end data
 
     !!--------- convergence criteria
@@ -318,12 +318,16 @@ DO WHILE (time .LT. final_time)
  
 ENDDO
 
-!$acc exit data copyout(um, um_n, vm, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
-!$acc& Z_tau, varZ, ym, xm, Pe, x, y, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy,&
-!$acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i, var,&
-!$acc& vi, RV, res_v,t, v_i, Re, artDivV, var, residual_v, varM)
+!$acc exit data copyout(um, um_n, vm, vm_n, um_tau, vm_tau, um_n_tau, vm_n_tau, p, pn, T, T_tau, T_n_tau,&
+!$acc& areau_e, areau_w, areau_n, areau_s, areav_e, areav_w, areav_n, areav_s, epsilon1, liga_poros, &
+!$acc& x, y, ym, xm, dx, dy,&
+!$acc& ui, vi, pi, zi, RU, RV, RP, RZ, res_u, res_v, res_p, res_z, artDivU,artDivV, &
+!$acc& residual_u,residual_v,residual_p, InvFr2, c2, b_art, v_i, Re, Pe, dtau)
 
-
+! $acc exit data copyout(um, um_n, vm, vm_n, RP, areau_e, areau_w, areav_n, areav_s, i, j, pi, p, dtau,c2, res_p, pn, residual_p,&
+! $acc& Z_tau, ym, xm, Pe, x, y, RZ, zi, T_tau, liga_poros, res_z, T, dtau, um_n_tau, vm_n_tau, T_n_tau, dx, dy,&
+! $acc& um_tau, vm_tau, residual_u, RU, res_u, ui, epsilon1, b_art, Re, artDivU, v_i,&
+! $acc& vi, RV, res_v,t, v_i, Re, artDivV, residual_v)
 
 ! $acc exit data copyout(um(1:imax+1,1:jmax),um_n(1:imax+1,1:jmax),res_u(1:imax+1,1:jmax),vm(1:imax,1:jmax+1),vm_n(1:imax,1:jmax+1),&
 ! $acc&res_v(1:imax,1:jmax+1),um_tau(1:imax+1,1:jmax),um_n_tau(1:imax+1,1:jmax),vm_tau(1:imax,1:jmax+1),vm_n_tau(1:imax,1:jmax+1),&
@@ -362,32 +366,35 @@ ENDDO
         CALL comp_mean(u,v,um,vm)
 !!------------------------------------------------
             
-        CALL transient(u,v,p,T,Z,itc)
+        CALL transient(u,v,p,T,itc)
+        !CALL transient(u,v,p,T,Z,itc)
 
 !!------ output data file ------------------------
-        CALL output(um,vm,u,v,p,Z,T,H,itc)
+        CALL output(um,vm,u,v,p,T,T,H,itc)
+        !CALL output(um,vm,u,v,p,Z,T,H,itc)
 
         clockTIME=ETIME(TARRAY)
-		PRINT *, clockTime
-		PRINT *, TARRAY
+        PRINT *, clockTime
+        PRINT *, TARRAY
         WRITE(*,1009) clockTIME/60.d0!, 'horas' 
         1009  FORMAT(1X,'EXECUTION TIME = ',F15.4,' MINUTOS')
 
 stop
 END PROGRAM main
 
-SUBROUTINE convergencia(varM, residual_u, residual_v, residual_p, itc)
+SUBROUTINE convergencia(residual_u, residual_v, residual_p, itc)
     use comum
     use openacc
     !acc routine
     implicit none
-    REAL(8), DIMENSION(10) :: varM
+    !REAL(8), DIMENSION(10) :: varM
     REAL(8) :: residual_p, residual_u,residual_v, itc
-    !$acc data present(itc, varM, residual_u, residual_v, residual_p)
+    ! $acc data present(itc, varM, residual_u, residual_v, residual_p)
         itc = itc+1
-        varM(1) = varM(1) + 1
-        varM(2) = MAX(residual_u,residual_v,residual_p)
-    !$acc end data
+        !varM(1) = varM(1) + 1
+        !varM(2) = MAX(residual_u,residual_v,residual_p)
+        error = MAX(residual_u,residual_v,residual_p)
+    ! $acc end data
     RETURN
 END SUBROUTINE convergencia
 

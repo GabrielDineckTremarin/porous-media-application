@@ -14,23 +14,17 @@ SUBROUTINE flametip(Z,itc)
 
         yf = ((1.d0-Z(i,j-1))*( Y(j)- Y(j-1) )) / ( Z(i,j) - Z(i,j-1) ) + Y(j-1)
         
-        go to 200        
-
-        endif    
-        
-    200 enddo    
-
-    open(unit=550,file='data/flametip.dat',status='unknown',position='append')
-        
+        go to 200
+        endif
+    200 enddo
+    open(unit=550,file='data/flametip.dat',status='unknown',position='append')        
         if (yf .lt. y_up) then
             write(550,*) itc,yf
         else
             write(550,*) itc, y_up
         endif
-              
-        
-    close(550)
 
+    close(550)
 
 RETURN
 END SUBROUTINE flametip

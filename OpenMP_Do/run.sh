@@ -10,11 +10,13 @@ fi
 
 export NO_STOP_MESSAGE=yes
 
-#/opt/nvidia/hpc_sdk/Linux_x86_64/21.2/compilers/bin/pgf90 -O3 -fopenmp \
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=all \
-#/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
-/opt/nvidia/hpc_sdk/Linux_x86_64/23.3/compilers/bin/pgf90 -O3 -Minfo=all \
-	comum.f90 \
+
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -fopenmp -mp=multicore -Minfo=stdpar,all -stdpar=multicore \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=multicore -Minfo=all \
+#/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -mp=gpu -Minfo=stdpar,all -stdpar=gpu \
+/opt/nvidia/hpc_sdk/Linux_x86_64/23.5/compilers/bin/pgf90 -O3 -fopenmp -Minfo=all \
+         comum.f90 \
 properties_CH4.f90 \
        initial.f90 \
 nonsymetric_mesh.f90 \
@@ -77,8 +79,4 @@ nonsymetric_mesh.f90 \
 #(time ./cylinder_solver.out) 2> Resultados/exec_3_2_thread_51_malha.txt 
 #(time ./cylinder_solver.out) 2> Resultados/exec_4_2_thread_51_malha.txt 
 
-
-
-
 # sh pos.sh
-
